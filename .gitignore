@@ -1,6 +1,7 @@
 *.pyc
 *.aux
-*.idx 
+*.idx
+*.lot
 *.ilg
 *.ind
 *.log

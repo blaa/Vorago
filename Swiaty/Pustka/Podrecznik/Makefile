@@ -3,6 +3,7 @@ OBJECTS=Vorago.latex Style.latex Magic.latex SpellTable.latex Races.latex \
 LATEX=pdflatex
 
 
+.PHONY: Vorago.pdf
 # Easier way:
 
 Vorago.pdf: ${OBJECTS}

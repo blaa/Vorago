@@ -1,6 +1,7 @@
 OBJECTS=Vorago.latex Chapter1.latex Chapter2.latex Chapter3.latex Style.latex 
 LATEX=pdflatex
 
+.PHONY: Vorago.pdf
 # Easier way:
 
 Vorago.pdf: ${OBJECTS}

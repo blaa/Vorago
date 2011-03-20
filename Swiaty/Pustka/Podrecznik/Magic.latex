@@ -1,0 +1,96 @@
+\chapter{Magia}
+Co tu musi się znaleźć
+\begin{itemize}
+	\item Zasady dotyczące zbroi u magów, których brak w systemie podstawowym
+	\item Szczegółowe zasady co do rozwoju maga, czterech grup magów.
+	\item Różnica między czarodziejem a magiem, której brak w systemie
+	podstawowym, a określeń używam na zmianę.
+	\item Dokładne zasady rozwoju.
+	\item Listy czarów. W miarę sensowne\ldots
+	\item Rzucanie czarów na siebie; trudność neutralna.
+	\item Dlaczego czarów a'la światło nie można rzucać z księgi -
+	koncentracja.
+	\item POZIOMY czarów, uzależnienie czasu i trudności uczenia od
+	poziomu.
+\end{itemize}
+\section{Tabela czarów}
+\input{SpellTable.latex}
+
+\section{Stary opis mieszający podstawowy z rozszerzonym}
+\index{magia}Magiem w Vorago nazywany każdą osobę potrafiącą rzucać czary.
+W~systemie podstawowym nie ma pojęcia \index{profesja},,profesja'', ale
+może być ona traktowana po prostu jako kierunek rozwoju postaci. Zgodnie z
+tą ideą, każdy rębajło może parać się magią w~ograniczonym zakresie.
+
+% FIXME: Ja bym części dot. poziomu czarów przeniósł gdzieś indziej
+% ROZDZIELIĆ ELEMENTY PODSTAWOWE OD ROZSZERZONYCH. UPROŚCIĆ PODSTAWOWY
+Zestawem podstawowym, posiadanym przez każdego maga, są dwie umiejętności:
+\emph{rzucanie czarów}, \emph{czytanie/pisanie runów}. Obie te umiejętności
+modyfikują współczynnik \idSCut{P}. Co więcej, czarodziej nie może rzucać
+czarów o~poziomie wyższym niż jego umiejętność rzucania czarów. Poziomy
+czarów zależą od ustaleń drużyny i~od \SCut{MG}. Załączamy naszą przykładową
+tabelę czarów.  Moc czarów powinna stopniowo rosnąć wraz ze wzrostem ich
+poziomu. Na pierwszym na pewno nie znajdą się żadne silne czary ofensywne.
+
+Każdy mag posiada \index{księga czarów}\NewName{księgę czarów}. Używa jej
+do zapisywania nowo poznanych czarów, by mógł je rzucić z~księgi, lub
+przypomnieć sobie jeżeliby coś zapomniał. Złożone ruchy i~gesty wykonywane
+podczas rzucania czarów uniemożliwiają czarodziejom noszenia cięższej zbroi
+od lekkiej kolczugi.
+
+Podczas walki mag rzuca czary z~pamięci, korzystając z~umiejętności
+rzucania czarów. Rzucenie takiego czaru trwa (jeżeli w~opisie czaru nie
+napisano inaczej) jedną \Name{turę} i~uszczupla zasób
+\index{mana}\index{punkty mocy} \NewName{punktów mocy}. Mag może rzucać
+czary własnej księgi czarów, lub z~innych ksiąg jeśli wcześniej poznał
+zaklęcie, które chce rzucić. Korzysta wtedy z~umiejętności czytania/pisania
+run. Wówczas nie traci on swoich punktów mocy, lecz rzucenie zajmie mu 6 rund
+(około minutę). W~tym czasie maga można rozproszyć atakując, zadając
+obrażenia\ldots zasłaniając mu oczy.  Mówiąc krótko rzucanie czarów
+z~księgi podczas walki lub innej stresującej sytuacji jest praktycznie
+niemożliwe. 
+
+Czary można też rzucać z jednorazowych \index{zwoje}\NewName{zwojów}
+zawierających jednorazowy zapis czaru wraz z energią magiczną niezbędną do
+jego rzucenia. Można z~nich rzucić czar w~jedną turę nie wydając punktów
+mocy. Również przy takim rzucaniu mag korzysta z umiejętności
+czytania/pisania run.
+
+Zasadniczo rozróżniamy dwa rodzaje czarów. Rzucanie czarów z~pierwszej
+grupy jest bezpośrednio przełożone z~mechaniki trafień bronią. Na początku
+ataku należy policzyć przewagę ,,magiczną'' maga nad osobą, na którą
+próbuje rzucić czar. Robi się to odejmując Moc maga od Odporności celu
+(\SCut{P} - \SCut{R}). Następnie należy rzucić kością K20  i~zmodyfikować
+wynik o~przewagę.  Wynik większy od 10 stwierdza udane rzucanie czaru.
+Mniejszy zaś porażkę.  Podczas rzucania na przedmioty przyjmuje się
+trudność ,,neutralną'' równą 10. Przedmioty zabezpieczone przed ingerencją
+magiczną mogą mieć trudność podniesioną.
+
+Liczba, o~którą wynik rzutu jest większy od 10, określa efekt z~jakim czar
+został rzucony. Zależnie od opisu czaru ten efekt może powodować zadanie
+obrażeń, rozproszenie czaru, czas trwania zauroczenia. Rozróżnia się
+,,trafienie krytyczne'' i~,,trafienie pechowe''. Ich następstwa mogą być
+określone w~opisie czaru, lub wymyślone na żywo przez mistrza gry. Na pewno
+jednak trafienie krytyczne powoduje zawsze udane rzucanie, a~pechowe zawsze
+nieudane.
+
+Druga grupa to czary, których efekt jest z~góry określony, lub które mag
+rzuca sam na siebie. Czary rzucane na siebie nie wymagają żadnego rzutu.
+Przykładem czaru o~określonym efekcie jest np.~czar światło.
+
+Przy stwierdzaniu efektu działania czaru obszarowego stosuje się również
+jeden rzut K20, lecz dla każdej osoby znajdującej się na danym obszarze
+oblicza się inną przewagę.
+
+Mag regeneruje połowę ze swoich punktów mocy podczas ośmiogodzinnego
+odpoczynku.
+% FIXME: Medytacje.
+
+Rozróżniamy dwie metody uczenia się czarów: Najpopularniejsza, czyli
+uczenie się z~ksiąg, wymaga rzutu sprawdzającego czy udało nam się go
+nauczyć. Robimy test czytania/pisania run dodając modyfikator $-1$ za każdy
+poziom czaru. Nauka trwa godzinę na każdy poziom czaru. Drugą metodą jest
+nauka z~nauczycielem, która nie wymaga rzutu i~zawsze jest udana jeżeli
+tylko czarodziej jest w~stanie ten czar opanować (poziom czaru nie
+przekracza poziomu umiejętności rzucania czarów).
+

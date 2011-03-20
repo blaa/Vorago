@@ -1,0 +1,2 @@
+\let\ifforprint=\iffalse
+\input{Vorago.latex}

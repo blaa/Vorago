@@ -1,0 +1,8 @@
+*.pyc
+*.aux
+*.idx 
+*.ilg
+*.ind
+*.log
+*.toc
+.emacs.desktop

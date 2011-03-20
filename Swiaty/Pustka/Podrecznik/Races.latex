@@ -1,0 +1,168 @@
+\chapter{Rasy Vorago}
+
+\section{Główne rasy}
+W świecie istnieje całe multum różnych stworzeń i ras. W tym rozdziale
+opisujemy tylko te dostępne dla graczy, których i tak jest już dużo.
+
+Niektóre rasy są szybsze od innych, inne są sprawniejsze, a jeszcze inne
+silniejsze. Niektóre również łatwiej rozwijają pewne zdolności od innych.
+Zastanawiając się nad wyborem postaci i jej życiowej drogi powinniśmy brać
+to pod uwagę.
+
+Po wylosowaniu \Name{cech podstawowych} powinniśmy dodać do nich
+modyfikatory przedstawione w tabeli \ref{rasy1 cechy}, oraz dopisać sobie
+umiejętności opisane w \ref{rasy1 zdolnosci}. Jeśli zdecydujemy się na
+człowieka, powinniśmy popatrzeć się również na tabele \ref{rasy2 cechy} i
+\ref{rasy2 zdolnosci}. Ludzie choć bardzo do siebie podobni i posiadający
+wiele cech wspólnych dzielą się na wiele grup etnicznych; żyją w różnych
+środowiskach i wykształcają sobie najróżniejsze cechy.
+
+
+\huge{TODO:}\normalsize Z tak szczegółowymi tabelami potrzebny jest nam równie szczegółowy opis.
+Filip. Nikt tego nie zrobi lepiej.
+Siadaj i pisz.
+
+\begin{small}
+\begin{table}[p]
+	\begin{center}
+	\begin{ColorTable}{|l|c|c|c|c|c|c|}{7}
+
+\DarkHeader{Rasa & SF & ZR & ŻW & PR & SW & CH}
+\LightCell Ludzie: &	0 &	0 &	0 &	0 &	0 &	0 \\
+\LightCell Morskie Elfy &-1 &	1 &	-2 &	1 &	0 &	1 \\
+\LightCell Ilyndilanie  &-1 &	0 &	-2 &	1 &	1 &	1 \\
+\LightCell Arlanosi &	-1 &	2 &	-1 &	1 &	-1 &	0 \\
+\LightCell Nyshavarczycy&-2 &	0 &	-2 &	1 &	2 &	1 \\
+\LightCell Dashilini &	-1 &	1 &	0 &	2 &	-1 &	-1 \\
+\LightCell Orkowie &	2 &	0 &	2 &	-1 &	-1 &	-2 \\
+\LightCell Minotaury &	3 &	-1 &	3 &	-2 &	1 &	-4 \\
+\LightCell Reptilioni &	2 &	-1 &	2 &	-1 &	1 &	-3 \\
+\LightCell Krasnoludy &	1 &	-1 &	2 &	-1 &	1 &	-2 \\
+\LightCell Pół-orki &	1 &	0 &	1 &	0 &	-1 &	-1 \\
+\LightCell Pół-elfy &	-1 &	1 &	-1 &	0 &	0 &	-1 \\
+\LightCell Pół-ogry &	3 &	0 &	1 &	-2 &	-1 &	-1 \\
+
+	\end{ColorTable}
+	\caption{Modyfikatory rasowe cech}
+	\label{rasy1 cechy}
+	\end{center}
+\end{table}
+\end{small}
+
+\begin{small}
+\begin{table}[p]
+	\begin{center}
+	\begin{ColorTable}{|l|p{300pt}|}{2}
+
+\DarkHeader{Rasa & Zdolności specjalne}
+\LightCell Ludzie	& +1 punkt umiejętności/poziom \\
+\LightCell Ilyndilanie	& Długi łuk, Długi miecz, Dyplomacja, Śpiew, Taniec \\
+\LightCell Arlanosi	& Długi łuk, Ukrywanie się, Botanika, Zoologia, Sztuka Przetrwania \\
+\LightCell Morskie Elfy	& Długi miecz, Targowanie się, Dyplomacja, Pływanie, Wycena; \\
+\LightCell Nyshavarczycy& Długi miecz, Alchemia/Kusza ręczna, Dyplomacja, Blefowanie, Wiedza tajemna/Sztylet  \\
+\LightCell Dashilini	& Włócznia, Sztuka przetrwania, Krótki łuk, Targowanie się, odporność na ciepło +2 \\
+\LightCell Krasnoludy	& Topór bojowy, Górnictwo, Targowanie się, Wycena, R+1 \\
+\LightCell Orkowie	& Szabla, Topór bojowy, Zastraszanie, Sztuka przetrwania, Walka wręcz \\
+\LightCell Minotaury	& Berdysz, Sztuka przetrwania, Walka wręcz, Wspinaczka, Odporność na zimno +2  \\
+\LightCell Reptilioni	& naturalny pancerz: wp1, Odporność na trucizny +2, Naturalna broń: ogon +0/+2, współczynnik zdrowienia +1, Termowizja \\
+\LightCell Pół--elfy	& Długi łuk, Dyplomacja, Śpiew/Taniec +1 punkt umiejętności/2 poziomy \\
+\LightCell Pół--orki	& Szabla, Zastraszanie, Walka wręcz, +1 punkt umiejętności/2 poziomy \\
+\LightCell Pół--ogry	& Walka wręcz, Maczuga, współczynnik zdrowienia +1, +1 punkt umiejętności/2 poziomy \\
+
+	\end{ColorTable}
+	\caption{Zdolności specjalne ras}
+	\label{rasy1 zdolnosci}
+	\end{center}
+\end{table}
+\end{small}
+
+\begin{small}
+\begin{table}[p]
+	\begin{center}
+	\begin{ColorTable}{|l|c|c|c|c|c|c|}{7}
+
+\DarkHeader{Grupa: & SF & ZR & ŻW & PR & SW & CH}
+\LightCell Drev'narczycy &	0 &	1 &	0 &	0 &	-1 &	0 \\
+\LightCell Eisarowie &	-1 &	1 &	0 &	0 &	-1 &	1 \\
+\LightCell Kharalaci &	1 &	0 &	1 &	0 &	-1 &	-1 \\
+\LightCell Alidarczycy &	-1 &	1 &	0 &	0 &	0 &	0 \\
+\LightCell Ilkerowie &	-1 &	0 &	-1 &	0 &	1 &	1 \\
+\LightCell Sakranie &	-1 &	0 &	0 &	1 &	0 &	0 \\
+\LightCell Skyryjczycy &	1 &	0 &	0 &	-1 &	1 &	-1 \\
+\LightCell Naraganczycy &	0 &	0 &	1 &	0 &	0 &	-1 \\
+\LightCell Amrathowie &	1 &	0 &	0 &	-1 &	-1 &	1 \\
+\LightCell Reagarczycy &	1 &	0 &	1 &	-1 &	0 &	-1 \\
+\LightCell Edgarsi &	0 &	1 &	1 &	-1 &	0 &	-1 \\
+\LightCell Caerdyjczycy &	-1 &	0 &	0 &	1 &	-1 &	1 \\
+\LightCell Uledańczycy &	-1 &	0 &	-1 &	0 &	1 &	1 \\
+\LightCell Jaraoci &	1 &	1 &	0 &	0 &	-1 &	-1 \\
+\LightCell Danemijczycy &	0 &	1 &	1 &	0 &	-1 &	-1 \\
+\LightCell Odelranie &	1 &	1 &	0 &	0 &	-1 &	-1 \\
+\LightCell Betarakijczycy &	-1 &	0 &	0 &	0 &	0 &	1 \\
+
+	\end{ColorTable}
+	\caption{Modyfikatory grup etnicznych ludzi}
+	\label{rasy2 cechy}
+	\end{center}
+\end{table}
+\end{small}
+
+CO TO JEST TO PO ŚREDNIKU W TABELI \ref{rasy2 cechy}
+\begin{small}
+\begin{table}[p]
+	\begin{center}
+	\begin{ColorTable}{|l|p{300pt}|}{2}
+
+\DarkHeader{Rasa & Zdolności specjalne}
+\LightCell Drev'narczycy	& Szabla/Pałasz, Żeglarstwo/Pływanie, Targowanie się, +1 punkt umiejętności/ 2 poziomy; Drev'nar \\
+\LightCell Eisarowie	& Długi miecz, Żeglarstwo/Pływanie, Dyplomacja; +1 punkt umiejętności/ 2 poziomy; Al'Derath (Żeglarze) \\
+\LightCell Kharalaci	& Maczuga, Szabla, Walka wręcz, +1 punkt umiejętności/ 2 poziomy; Kharatoss \\
+\LightCell Alidarczycy	& Długi łuk, Ukrywanie się, Botanika, +1 punkt umiejętności/ 2 Poziomy; Arlanis \\
+\LightCell Ilkerowie	& Dyplomacja/Blefowanie, Wiedza tajemna, Alchemia, +1 punkt umiejętności/ 2 Poziomy; Złote Miasta (Magowie)   \\
+\LightCell Sakranie	& Pływanie, Sztuka przetrwania, +1 P, +1 punkt umiejętności/ 2 poziomy \\
+\LightCell Skyryjczycy	& Topór bojowy, Żeglarstwo/Pływanie, Walka wręcz, +1 punkt umiejętności/ 2 Poziomy \\
+\LightCell Naragańczycy	& Odporność na trucizny +1, Łuk (dowolny), Sztuka przetrwania, +1 punkt umiejętności/ 2 poziomy; Wężowy Archipelag \\
+\LightCell Amrathowie	& Włócznia/Kopia, Jeździectwo, Długi miecz, +1 punkt umiejętności/2 poziomy; Edimras (Rycerze) \\
+\LightCell Reagarczycy	& Topór bojowy, Walka wręcz, współczynnik zdrowienia +1, +1 Punkt umiejętności/2 poziomy; Ziemie Prób \\
+\LightCell Edgarsi	& 	Wspinaczka, Sztuka przetrwania, odporność na chłód +1, +1 punkt umiejętności/2 poziomy; Góry Zawodzącego Wichru \\
+\LightCell Caerdyjczycy	& Sztylet, Uniki, Dyplomacja/Blefowanie, +1 punkt umiejętności/2 poziomy; Caerdion \\
+\LightCell Uledańczycy	& Wiedza tajemna, Blefowanie/Alchemia, Sztylet/Kostur, +1 punkt umiejętności/2 poziomy; Al'Derath/Taledos (Magowie) \\
+\LightCell Jaraoci	& Jeździectwo, Włócznia, Krótki łuk, +1 punkt umiejętności/2 poziomy; Równina Jeralun \\
+\LightCell Danemijczycy	& Włócznia, Sztuka przetrwania, odporność na ciepło +1; +1 punkt umiejętności/2 poziomy; Danemios \\
+\LightCell Odelranie	& Miecz dwuręczny, Walka wręcz, topór bojowy/młot bojowy; +1 punkt umiejętności/2 poziomy; Al'Derath (Wojownicy) \\
+\LightCell Betarakijczycy	& Targowanie się, Pływanie/Żeglarstwo, Wycena; +1 punkt umiejętności/2 poziomy \\
+
+
+
+
+	\end{ColorTable}
+	\caption{Zdolności specjalne grup etnicznych ludzi}
+	\label{rasy2 zdolnosci}
+	\end{center}
+\end{table}
+\end{small}
+
+\section{Rasy standardowe}
+Przygotowana kiedyś tabela modyfikatorów dla ras bardziej standardowych, od
+tych używanych w Vorago.
+\begin{small}
+\begin{table}[p]
+	\begin{center}
+	\begin{ColorTable}{|l|c|c|c|c|c|c|}{7}
+
+	\DarkHeader{Rasa: & Ludzie & Elfy & Krasnoludy & Półelfy & Półorki & Hobbity}
+	\LightCell Siła Fizyczna &	+0 &	-1 &	+1 &	-1 &	+2 &	-1	\\
+	\LightCell Zręczność &		+0 &	+1 &	-1 &	+1 &	+0 &	+1	\\
+	\LightCell Żywotność &		+0 &	-2 &	+2 &	-1 &	+2 &	+1	\\
+	\LightCell Percepcja &		+0 &	+1 &	-1 &	+0 &	-1 &	+0	\\
+	\LightCell Siła Woli &		+0 &	+0 &	+1 &	+0 &	+0 &	-1	\\
+	\LightCell Charyzma &		+0 &	+1 &	-2 &	+1 &	-3 &	+0	\\
+	\LightCell Suma &		0 &	0 &	0 &	0 &	0 &	0	\\
+
+	\end{ColorTable}
+	\caption{Alternatywne modyfikatory rasowe cech}
+	\label{mod ras}
+	\end{center}
+\end{table}
+\end{small}
+

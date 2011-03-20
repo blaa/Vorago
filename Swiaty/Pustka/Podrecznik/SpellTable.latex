@@ -1,0 +1,566 @@
+\newcommand{\SpellDesc}[1] { \GrayRow #1 \\ \hline} 
+\newcommand{\Effect}[1] { \SingleCell{|p{462pt}|}{#1} \hline } 
+
+\begin{small}
+
+\begin{LongColorTable}{|p{100pt}|p{100pt}|p{15pt}|p{30pt}|p{40pt}|p{50pt}|p{55pt}|}{7}
+\hline
+%\PrimaryHeader{Tabela czarów}
+\hline
+\LightHeader{Nazwa & Umiejętność	& Poz. & Nauka & Zasięg	& Koszt	& Czas}
+\hline
+
+\SpellDesc{Magiczna strzała	& Rzucanie czarów	& 1	& 0	& 2m/P	& 4	& chwila}
+\Effect{Magiczny atak +0/+1}
+\SpellDesc{Zbroja maga		& Rzucanie czarów	& 1	& -1	& osobisty	& 5	& P rund}
+\Effect{D +2}
+
+\SpellDesc{Rozpalenie ognia	& Rzucanie czarów	& 1	& 0	& dotyk	& 2	& Chwila}
+\Effect{Rozpalenie ognia}
+
+\SpellDesc{Prosta telekineza	& Rzucanie czarów	& 1	& 0	& 1m/P	& 4	& P/2 rund}
+\Effect{,,długa ręka'', poruszanie przedmiotów itp}
+
+\SpellDesc{Światło			& Rzucanie czarów	& 1	& 0	& 4m	& 3+1/P min	& spec}
+\Effect{Unosząca się kula światła święcąca  nieco mocniej jak świeca}
+
+\SpellDesc{Iluzja dźwięku		& Rzucanie czarów	& 1	& 0	& 1m/P	& 4	& P/2 min}
+\Effect{Stworzenie iluzji dźwięku o sile głosu z oddalonym źródłem}
+
+\SpellDesc{Iluzja przedmiotu	& Rzucanie czarów	& 1	& -1	& P/2m	& 4	& P/2 min}
+\Effect{Stworzenie iluzji przedmiotu mieszczącego się w ręce}
+
+\SpellDesc{Otwarcie		& Rzucanie czarów	& 1	& -1	& Dotyk	& 5	& Chwila}
+\Effect{Otwiera zwykłe zamki}
+
+\SpellDesc{Wykrycie magii		& Rzucanie czarów	& 1	& -1	& R= 6m	& 6	& P rund}
+\Effect{Wykrywa zaklęcia i magiczne przedmioty}
+
+\SpellDesc{Porażenie		& Rzucanie czarów	& 1	& 0	& Osobisty	& 4	& P rund}
+\Effect{Twoje ataki dotykowe wykorzystują P zamiast A i stają się bronią +0/+2}
+
+\SpellDesc{Sztuczka		& Rzucanie czarów	& 1	& 2	& P/3m	& 3	& P/3 rund}
+\Effect{Drobne efekty ,,magiczne'' ustalane przez maga}
+
+\SpellDesc{Ogłuszenie		& Rzucanie czarów	& 1	& -1	& 1m/P	& 4	& 1 runda}
+\Effect{Traktowane jako wirtualny atak +0/+2; za każde 3 PO ofiara w następnej rundzie ma mod. -1}
+
+\SpellDesc{Wachlarz ognia		& Rzucanie czarów	& 2	& -2	& 1,5m	& 6	& Chwila}
+\Effect{Ognisty atak +1/+2 w stożku o promieniu 1,5m}
+
+\SpellDesc{Poznanie		& Rzucanie czarów	& 2	& -2	& Dotyk	& 10	& Chwila}
+\Effect{Poznanie podstawowych właściwości przedmiotu}
+
+\SpellDesc{Pnącza			& Rzucanie czarów	& 2	& -3	& 7m/P	& 10	& P rund}
+\Effect{Tworzy pnącza w obszarze o r=P, wyrwanie się wymaga testu SF z mod.-2}
+
+\SpellDesc{Uśpienie		& Rzucanie czarów	& 2	& -2	& 1m/P	& 5	& Efekt rund}
+\Effect{Usypia cel, ofiara budzi się gdy porusza się nią gwałtownie, lub gdy otrzyma ranę}
+
+\SpellDesc{Przełamanie strachu	& Rzucanie czarów	& 2	& -1	& 1m/P	& 4	& Chwila}
+\Effect{Usuwa z ofiary działanie strachu i paniki, niekiedy potrzebny sporny test P}
+
+\SpellDesc{Rozproszenie magii	& Rzucanie czarów	& 2	& -3	& 2m/P	& 7	& Chwila}
+\Effect{Sporny test P, udany oznacza usunięcie zaklęcia}
+
+\SpellDesc{Wyostrzenie		& Rzucanie czarów	& 2	& -1	& Dotyk	& 6	& P rund}
+\Effect{PO broni białej: +1}
+
+\SpellDesc{Spadanie jak piórko	& Rzucanie czarów	& 2	& 0	& Osobisty	& 3	& P rund}
+\Effect{Postać znacznie wolniej spada}
+
+\SpellDesc{Wycelowanie		& Rzucanie czarów	& 2	& -1	& Dotyk	& 8	& 2P rund}
+\Effect{M +2}
+
+\SpellDesc{Poufna rozmowa		& Rzucanie czarów	& 2	& -2	& P/2m	& 6	& P rund}
+\Effect{Szeptana rozmowa na odległość, do wybranego odbiorcy}
+
+\SpellDesc{Alarm			& Rzucanie czarów	& 2	& -2	& 2m2/P	& 12	& P godzin}
+\Effect{Gdy stworzenie większe od szczura wejdzie w obszar wywołuje alarm bądź budzi maga}
+
+\SpellDesc{Osłona mocy		& Rzucanie czarów	& 2	& -2	& Osobisty	& 7	& P rund}
+\Effect{R +1}
+
+\SpellDesc{Prosta iluzja		& Rzucanie czarów	& 2	& -2	& 1m/P	& 6	& P rund}
+\Effect{Tworzy prostą iluzję, nie może ona się poruszać i znika po dotknięciu }
+
+\SpellDesc{Bitewna telekineza	& Rzucanie czarów	& 3	& -2	& 2m/P	& 5	& Chwila}
+\Effect{Wirtualny atak +0/+2, zadaje 1 PO i odrzuca ofiarę o efekt metrów}
+
+\SpellDesc{Gołoledź		& Tkanie żywiołów	& 1	& -3	& Dotyk	& 7	& 3P rund}
+\Effect{Obszar o r=6m staje się śliski (ZR -4, ryzyko upadku)}
+
+\SpellDesc{Struga kwasu		& Tkanie żywiołów	& 1	& -3	& P/3m	& 8	& 3 rundy}
+\Effect{Kwasowy atak +0/+2, w II rundzie zadaje połowę zadanych PO, w III rundzie 1 PO}
+
+\SpellDesc{Ognisty atak		& Tkanie żywiołów	& 1	& -2	& 3m/P	& 8	& Chwila}
+\Effect{Ognisty atak +1/+3}
+
+\SpellDesc{Pochodnia		& Tkanie żywiołów	& 1	& 0	& 1m	& 4+1/P min	& spec}
+\Effect{Unoszące się płomienie rozświetlające ciemność, można ich użyć do oślepienia jednego celu (A, D i M -1), lub zużyć do ataku +0/+2}
+
+\SpellDesc{Ziemna zbroja		& Tkanie żywiołów	& 1	& -2	& Osobisty	& 8	& P+5 rund}
+\Effect{D +4}
+
+\SpellDesc{Ogniste strzały		& Tkanie żywiołów	& 1	& -1	& Dotyk	& 8	& 2P minut}
+\Effect{Zaczarowane pociski mają mod. PO: +1 z racji ognia}
+
+\SpellDesc{Wzmocnienie pancerza	& Tkanie żywiołów	& 1	& -2	& Dotyk	& 6	& 2P rund}
+\Effect{Wyparowanie danej zbroi +2}
+
+\SpellDesc{Oczyszczenie		& Tkanie żywiołów	& 1	& -1	& Dotyk	& 5	& Chwila}
+\Effect{Usuwa brud}
+
+\SpellDesc{Mgła			& Tkanie żywiołów / wezwań	& 1	& -2	& 1m/P	& 6	& P rund}
+\Effect{Mgła na obszarze o r=P; strzelanie z i do niej ma mod. -4, ułatwia ukrycie się}
+
+\SpellDesc{Stworzenie roju		& Tkanie wezwań	& 1	& -2	& 2m/P	& 10	& P rund}
+\Effect{Rój os atakuje wszystkich wrogów maga w r=4m, postacie co rundę odnoszą 1 PO i mają mod. -2 do A, D, M, P, R i inicjatywy chyba, że całą rundę spędzą na odganianiu się od owadów, rój można odegnać dymem lub zadać 10 PO ogniem bądź czarami obszarowymi; D roju = 23}
+
+\SpellDesc{Las cierni		& Tkanie wezwań	& 1	& -3	& 7m/P	& 14	& 2P rund}
+\Effect{Na obszarze o r=P wyrastają cierniste pnącza unieruchamiając ofiary, by oswobodzić się wymagany jest test SF z mod. -2, każda runda to 1PO, próba wyrwania się dodatkowy 1PO}
+
+\SpellDesc{Dominacja nad potworem	& Tkanie wezwań	& 1	& -2	& 1m/P	& 10	& Efekt rund}
+\Effect{Atak +0/+3, udany oznacza telepatyczną dominację nad potworę; można rzucać ten czar jedynie na potwory które mag potrafi przywoływać}
+
+\SpellDesc{Kolce			& Tkanie wezwań	& 1	& -2	& 2m/P	& 8	& Chwila}
+\Effect{Z rąk maga wystrzeliwują kolce traktowane jako atak +2/+2}
+
+\SpellDesc{Wezwanie ogarów		& Tkanie wezwań	& 1	& -3	& 1m/P	& 10	& 2P rund}
+\Effect{Przywołuje P/4 ogarów skyryjskich}
+
+\SpellDesc{Wezwanie szponodziobów	& Tkanie wezwań	& 1	& -3	& 1m/P	& 11	& 2P rund}
+\Effect{Przywołuje P/5 szponodziobów}
+
+\SpellDesc{Zatrzymanie krwawienia	& Tkanie mistycyzmu	& 1	& -1	& Dotyk	& 5	& Chwila}
+\Effect{Zatrzymuje krwawienie danej postaci}
+
+\SpellDesc{Gwałtowny krwotok	& Tkanie mistycyzmu	& 1	& -1	& P/4m	& 5	& P rund}
+\Effect{Wywołuje bądź zwiększa krwotok ofiary, ofiara musi mieć co najmniej 6 PO,}
+
+\SpellDesc{Wykrycie ożywieńców	& Tkanie mistycyzmu	& 1	& -2	& Osobisty	& 8	& P/3 rund}
+\Effect{Wykrywa ożywieńców na obszarze do R= 2P, podaje w przybliżeniu ich liczbę i siłę, można ponawiać wykrycia }
+
+\SpellDesc{Przyspieszone leczenie	& Tkanie mistycyzmu	& 1	& -3	& Dotyk	& 7	& chwila}
+\Effect{Premia +2 do testu zdrowienia}
+
+\SpellDesc{Klątwa: zakażenie rany	& Tkanie mistycyzmu	& 1	& -3	& P/4m	& 10	& 6 dni}
+\Effect{-1 do wsp. Zdr. ofiary}
+
+\SpellDesc{Światło			& Tkanie mistycyzmu	& 1	& -2	& P/2m	& 8	& P rund}
+\Effect{Światło rozjaśniające ciemności i sprawiające, że stwory ciemności otrzymują karę -2 do A, M i D}
+
+\SpellDesc{Ciemność		& Tkanie mistycyzmu	& 1	& -2	& P/2m	& 8	& P rund}
+\Effect{Ciemność utrudniająca widzenie i dająca karę -2 do A, M i D stworów światła}
+
+\SpellDesc{Uspokojenie		& Tkanie mistycyzmu / myśli & 1	& -2	& Dotyk	& 7	& 2P rund}
+\Effect{Postać otrzymuje premię +3 do przeciwstawiania się nagłym emocjom}
+
+\SpellDesc{Cios woli		& Tkanie myśli	& 1	& -2	& P/3m	& 7	& chwila}
+\Effect{Atak na umysł +2/+0, ignoruje zwyczajne zbroje ale nie tarcze}
+
+\SpellDesc{Wykrycie kłamstwa	& Tkanie myśli	& 1	& -2	& Osobisty	& 9	& P minut}
+\Effect{Postać otrzymuje premię +4 do wykrywania kłamstw}
+
+\SpellDesc{Sugestia		& Tkanie myśli	& 1	& -1	& Głos	& 7	& 1 akcja}
+\Effect{Wirtualny atak: +1/+0 określa stopień w jakim ofiara jest skłonna poddać się sugestii}
+
+\SpellDesc{Iluzoryczna postać	& Tkanie myśli	& 1	& -3	& 1m/P	& 10	& 2P rund}
+\Effect{Niematerialna iluzja postaci o średniej wielkości, może się poruszać i dotknięcie jej nie usuwa}
+
+\SpellDesc{Rozmazanie kształtów	& Tkanie myśli	& 1	& -2	& Osobisty	& 9	& P rund}
+\Effect{D +3, R przeciwko czarom kierowanym +3}
+
+\SpellDesc{Rozumienie języków	& Tkanie myśli	& 1	& -1	& Osobisty	& 7	& P min}
+\Effect{postać rozumie dany język}
+
+\SpellDesc{Fałszywa aura		& Tkanie myśli	& 1	& -1	& Dotyk	& 6	& P godzin}
+\Effect{Dany przedmiot otrzymuje fałszywą magiczną aurę, }
+
+\SpellDesc{Identyfikacja		& Rzucanie czarów	& 4	& -5	& Dotyk	& 15	& Chwila}
+\Effect{Poznaje jeden poziom właściwości przedmiotu}
+
+\SpellDesc{Ostrzeżenie		& Rzucanie czarów	& 4	& -5	& 3m2/P	& 25	& P+6 dni}
+\Effect{Jak alarm ale powiadamia maga, jeśli jest on w odległości do 10km/P; rozróżnia między zwierzętami a istotami myślącymi}
+
+\SpellDesc{Przekazujący znak	& Rzucanie czarów	& 4	& -3	& Dotyk	& 10	& 2P dni}
+\Effect{Dany przedmiot po dotknięciu może przekazać do 3P słów}
+
+\SpellDesc{Krzyk			& Tkanie żywiołów	& 2	& -4	& 1m/P	& 12	& 2 rundy}
+\Effect{Atak dźwiękowy w stożku o promieniu 1m/3P o sile +1/+3. Wymagany test na Żw z mod.-2 lub ogłuszenie na rundę}
+
+\SpellDesc{Sokole oko		& Tkanie żywiołów	& 2	& -4	& Dotyk	& 10	& P+8 rund}
+\Effect{M +4, Premia do wypatrywania +3,}
+
+\SpellDesc{Żelazna dłoń		& Tkanie żywiołów	& 2	& -5	& Dotyk	& 10	& P rund}
+\Effect{A +3}
+
+\SpellDesc{Tarcza wichrów		& Tkanie żywiołów	& 2	& -5	& Dotyk	& 11	& P rund}
+\Effect{D +6 przeciwko broni strzeleckiej i D +3 przeciwko broni miotanej }
+
+\SpellDesc{Wstrząsy		& Tkanie żywiołów	& 2	& -5	& P/3m	& 10	& P/2 rund}
+\Effect{Na obszarze o R=6m w I rundzie wymagany test Zr z mod. -6 lub postacie odnoszą 1PO i upadają, w każdej następnej rundzie mają mod. -2 do A, D i inicjatywy, zaś mod -4 do P i M, }
+
+\SpellDesc{Iskry mocy		& Tkanie żywiołów	& 2	& -4	& 2m/P	& 6+4/ iskrę	& Chwila}
+\Effect{Tworzy 1 magiczny pocisk o sile +0/+2; za każde 4PM postać może stworzyć dodatkowy pocisk (max. 6 pocisków), mogą razić 1 cel (max. 3 pociski) lub różne}
+
+\SpellDesc{Ochrona przed wodą	& Tkanie żywi/sys/devices/platform/serial8250/tty:ttyS1ołów	& 2	& -4	& Dotyk	& 11	& P/2 rund}
+\Effect{D i R +4 przeciwko atakom i stworzeniom lodu i wody}
+
+\SpellDesc{Ochrona przed ogniem	& Tkanie żywiołów	& 2	& -5	& Dotyk	& 12	& P/2 rund}
+\Effect{D i R +4 przeciwko atakom i stworzeniem ognia}
+
+\SpellDesc{Ochrona przed ziemią	& Tkanie żywiołów	& 2	& -4	& Dotyk	& 10	& P/2 rund}
+\Effect{D i R +4 przeciwko atakom i stworzeniom ziemi}
+
+\SpellDesc{Ochrona przed powietrzem & Tkanie żywiołów	& 2	& -4	& Dotyk	& 11	& P/2 rund}
+\Effect{D i R +4 przeciwko atakom i stworzeniom powietrza i błyskawic}
+
+\SpellDesc{Ochrona przed kwasem	& Tkanie żywiołów	& 2	& -5	& Dotyk	& 9	& P/2 rund}
+\Effect{D i R +4 przeciwko atakom i stworzeniom kwasu }
+
+\SpellDesc{Ściana wichru		& Tkanie żywiołów / wezwań	& 2	& -5	& 1m/P	& 13	& 3P/ rund}
+\Effect{Ściana wiatru odchylająca lub osłabiająca ataki strzeleckie i dająca karę -3 do M dla broni miotanych}
+
+\SpellDesc{Przejęcie przywołańca	& Tkanie wezwań	& 2	& -5	& 1m/P	& 15	& Chwila}
+\Effect{Test sporny P z mod. +2 oraz mod. czyt/pis czaru, udany na stałe przejmuje kontrolę nad grupą przywołańców wezwaną za pomocą jednego czaru}
+
+\SpellDesc{Odesłanie		& Tkanie wezwań	& 2	& -4	& 1m/P	& 13	& Chwila}
+\Effect{wirtualny atak +2/+0 jeśli liczba ,,obrażeń'' będzie większa niż 5 cele zostają odesłane}
+
+\SpellDesc{Wezwanie gryfów		& Tkanie wezwań	& 2	& -5	& 1m/P	& 15	& 2P rund}
+\Effect{Przywołuje P/5 gryfów}
+
+\SpellDesc{Wezwanie lamii		& Tkanie wezwań	& 2	& -6	& 1m/P	& 16	& 2P rund}
+\Effect{Przywołuje P/5 lamii pustynnych lub wodnych}
+
+\SpellDesc{Wezwanie wierzchowca	& Tkanie wezwań	& 2	& -5	& 6m	& 13	& 2P min}
+\Effect{Wzywa magicznego rumaka, wszelkie testy jeździectwa mają premie +4}
+
+\SpellDesc{Stworzenie przedmiotu	& Tkanie wezwań	& 2	& -5	& Dotyk	& 16	& 2P dni}
+\Effect{Tworzy prosty przedmiot z jednego materiału (sukna lub drewna)}
+
+\SpellDesc{Klatka			& Tkanie wezwań	& 2	& -4	& 2m/P	& 11	& 4P rund}
+\Effect{Ofiara zostaje uwięziona w magicznej klatce, wszelkie próby wydostania się mają karę -6, próby uwolnienia jej z zewnątrz mają -3}
+
+\SpellDesc{Wezwanie wielkich pająków & Tkanie wezwań	& 2	& -4	& 1m/P	& 12	& 2P rund}
+\Effect{Przywołuje P/3 wielkich pająków}
+
+\SpellDesc{Wezwanie upiornych pająków & Tkanie mistycyzmu i tkanie wezwań & 2+1 & -6	& 1m/P	& 16	& 3P rund}
+\Effect{Przywołuje P/4 upiornych pająków}
+
+\SpellDesc{Ożywienie ciał		& Tkanie mistycyzmu	& 2	& -5	& Dotyk	& 10	& 2P godzin}
+\Effect{Ożywia do P/3 ciał martwych, niemagicznych, niezbyt dużych zwierząt}
+
+\SpellDesc{Przejęcie ożywieńca	& Tkanie mistycyzmu	& 2	& -5	& 1m/2P	& 13	& Chwila}
+\Effect{Test sporny P z mod. +2, udany oznacza przejęcie 1 ożywieńca ,,wolnego'' lub ożywieńców stworzonych jednym czarem}
+
+\SpellDesc{Zniszczenie ożywieńców	& Tkanie mistycyzmu	& 2	& -5	& 1m/P	& 12	& Chwila}
+\Effect{Atak +2/+4 przeciwko ożywieńcom}
+
+\SpellDesc{Leczenie		& Tkanie mistycyzmu	& 2	& -4	& Dotyk	& 11	& Chwila}
+\Effect{Postać może natychmiast wykonać test zdrowienia z mod. +1}
+
+\SpellDesc{Wykrycie trucizny	& Tkanie mistycyzmu	& 2	& -4	& 1m/3P	& 9	& chwila}
+\Effect{wykrywa truciznę w posiłku bądź postaci}
+
+\SpellDesc{Tarcza magii		& Tkanie mistycyzmu	& 2	& -4	& Dotyk	& 12	& P+2 rund}
+\Effect{R+3}
+
+\SpellDesc{Ochrona przed ożywieńcami & Tkanie mistycyzmu	& 2	& -5	& Dotyk	& 14	& P+2 rund}
+\Effect{D i R +2 przeciw ożywieńcom}
+
+\SpellDesc{Klątwa: spowolnione leczenie & Tkanie mistycyzmu	& 2	& -6	& 1m/P	& 14	& 6 dni}
+\Effect{Przez najbliższe 6 dni ofiara może wykonywać test leczenia tylko co drugi dzień}
+
+\SpellDesc{Osłabienie		& Tkanie mistycyzmu	& 2	& -5	& 1m/P	& 14	& P rund}
+\Effect{A, D lub M ofiary -2}
+
+\SpellDesc{Ukrycie życia		& Tkanie mistycyzmu	& 2	& -5	& Dotyk	& 14	& 2P rund}
+\Effect{Dla ożywieńców wykrycie postaci wymaga testu PR z mod. -4, postać jest chroniona przed widzeniem życia}
+
+\SpellDesc{Widzenie życia		& Tkanie mistycyzmu	& 2	& -4	& Osobisty	& 11	& 2P rund}
+\Effect{Postać widzie stan żywych postaci}
+
+\SpellDesc{Łatwowierność		& Tkanie myśli	& 2	& -4	& 6m	& 11	& P min}
+\Effect{Ofiara ma karę -4 do wykrywania kłamstw i prawdziwych pobudek}
+
+\SpellDesc{Paraliż			& Tkanie myśli / mistycyzmu	& 2	& -4	& 1m/2P	& 10	& Efekt rund}
+\Effect{Wirtualny atak +2/+0, ofiara jest sparaliżowana}
+
+\SpellDesc{Zauroczenie		& Tkanie myśli	& 2	& -5	& 1m/3P	& 12	& Efekt rund}
+\Effect{Wirtualny atak +1/+0, ofiara wierzy, że mag jest jej najlepszym przyjacielem, którego rady są cenne}
+
+\SpellDesc{Lustrzany obraz		& Tkanie myśli	& 2	& -5	& Osobisty	& 6+8/ 2 kopie	& P rund}
+\Effect{Mag tworzy swoje kopie - 1 i kolejne 2 za każde 8 PM (max. 19) }
+
+\SpellDesc{Iluzoryczna osoba	& Tkanie myśli	& 2	& -5	& 1m/P	& 14	& 3P rund}
+\Effect{Iluzoryczna postać może być w pełni kontrolowana przez maga, ma zapach i można ją dotknąć}
+
+\SpellDesc{Fałszywa skóra		& Tkanie myśli	& 2	& -6	& Dotyk	& 12	& 2P rund}
+\Effect{Zmienia wygląd danej postaci}
+
+\SpellDesc{Niewidzialność		& Tkanie myśli	& 2	& -6	& Dotyk	& 10+4/ P min	& P min}
+\Effect{Postać staje się niewidzialna}
+
+\SpellDesc{Widzenie niewidzialnych	& Tkanie myśli	& 2	& -5	& Osobisty	& 8	& P min}
+\Effect{Postać ma premię +6 do wykrywania niewidzialnych postaci}
+
+\SpellDesc{Zwykła czynność		& Tkanie myśli	& 2	& -6	& Osobisty	& 15	& 3P rund}
+\Effect{Obszar o promieniu r=P/6m pokazuje prostą scenę}
+
+\SpellDesc{Błyskawica		& Tkanie żywiołów	& 3	& -6	& 5m/P	& 14	& Chwila}
+\Effect{Elektryczny atak +2/+4 raniący w linii prostej, metalowe zbroje zmniejszają R o wsp. wyparowań}
+
+\SpellDesc{Ognista kula		& Tkanie żywiołów	& 3	& -6	& 4m/P	& 14	& chwila}
+\Effect{Ognisty wybuch o promieniu 5m z siłą +0/+7}
+
+\SpellDesc{Niesamowite wyostrzenie	& Tkanie żywiołów	& 3	& -5	& Dotyk	& 13	& P rund}
+\Effect{PO broni +3, zakres trafienia krytycznego +1}
+
+\SpellDesc{Furia ognia		& Tkanie żywiołów	& 3	& -6	& Dotyk	& 13	& P rund}
+\Effect{A i PO +3 (ogień), D -2, R +1 przeciwko atakom opartym na ogniu}
+
+\SpellDesc{Kolczuga ze skał	& Tkanie żywiołów	& 3	& -6	& Osobisty	& 12	& 2P rund}
+\Effect{Zbroja +0/+4, R+1, nie ogranicza inicjatywy ani czarów, nie kumuluje się ze zwykłą zbroją}
+
+\SpellDesc{Ściana ognia		& Tkanie żywiołów	& 3	& -5	& 1m/2P	& 16	& P min}
+\Effect{P ściany =20, przejście przez nią to atak +0/+4}
+
+\SpellDesc{Trująca mgła		& Tkanie żywiołów / wezwań	& 3	& -7	& 2m/P	& 16	& P/2 rund}
+\Effect{Gaz o P=21, zasłaniający widok i zatruwający co rundę}
+
+\SpellDesc{Rój żądlaków		& Tkanie wezwań	& 3	& -7	& 1m/P	& 19	& P rund}
+\Effect{Przywołuje Królową Żądlaków i P/2 Żądlaków}
+
+\SpellDesc{Burza ostrzy		& Tkanie wezwań	& 3	& -6	& 2m/P	& 17	& 2 rundy}
+\Effect{na obszarze o r=4m powstaje burza ostrzy o sile +0/+4; atakuje tylko wrogów}
+
+\SpellDesc{Rój pajęczaków		& Tkanie wezwań	& 3	& -7	& 1m/P	& 23	& P rund}
+\Effect{Przywołuje Pajęczą Królową, 3 Toksyczne pająki, P/4 Wielkich pająków i P/5 Olbrzymich Pająków}
+
+\SpellDesc{Macki śmierci		& Tkanie wezwań	& 3	& -7	& 2m2/P	& 16	& 2P godzin}
+\Effect{Obszar czaru wypełnia się wyrastającymi z ziemi lub podłogi czarnymi mackami śmierci. Ich liczba jest równa P maga. }
+
+\SpellDesc{Wezwanie cienistych nietoperzy & Tkanie wezwań	& 3	& -6	& 2m/P	& 16	& 2P rund}
+\Effect{Wzywa P/2 cienistych nietoperzy}
+
+\SpellDesc{Przywołanie zjaw	& Tkanie wezwań i mistycyzmu	& 3+1 & -7	& 2m/P	& 20	& 3P rund}
+\Effect{Przywołuje P/4 zjaw}
+
+\SpellDesc{Klątwa: osłabienie	& Tkanie mistycyzmu	& 3	& -7	& 1m/2P	& 17	& 6 dni}
+\Effect{Co dzień ofiara traci 1 ŻW}
+
+\SpellDesc{Leczenie chorób		& Tkanie mistycyzmu	& 3	& -6	& Dotyk	& 13	& Chwila}
+\Effect{Leczy niemagiczną chorobę}
+
+\SpellDesc{Spowolnienie trucizny	& Tkanie mistycyzmu	& 3	& -5	& Dotyk	& 12	& P/2 rund}
+\Effect{Zatrzymuje działanie trucizny na P/2 rund}
+
+\SpellDesc{Zarażenie czarną niemocą & Tkanie mistycyzmu	& 3	& -6	& 1m/3P	& 14	& Ok. 14 dni}
+\Effect{Jeśli ofiara nie wykona testu ŻW z mod.~równym efekt zostaje zakażona Czarną niemocą}
+
+\SpellDesc{Zatrzymanie ożywieńców	& Tkanie mistycyzmu	& 3	& -5	& 2m/P	& 15	& Efekt rund}
+\Effect{Unieruchamia do P/4 ożywieńców}
+
+\SpellDesc{Wzmocnienie ożywieńca	& Tkanie mistycyzmu	& 3	& -7	& 1m/P	& 16	& P rund}
+\Effect{Ożywieniec może wykonać test zdrowienia z mod. +1 i otrzymuje premię +2 do A, D i R}
+
+\SpellDesc{Osłabienie ożywieńca	& Tkanie mistycyzmu	& 3	& -7	& 1m/P	& 16	& P rund}
+\Effect{Atak +0/+2 na ożywieńca i kara -2 do A, D i R}
+
+\SpellDesc{Zbroja krwi		& Tkanie mistycyzmu	& 3	& -6	& Osobisty	& 14	& 4P rund}
+\Effect{Zbroja +2/+5, zadaje 1PO/rundę}
+
+\SpellDesc{Zwinność kota		& Tkanie mistycyzmu	& 3	& -6	& Dotyk	& 11	& 2P rund}
+\Effect{ZR +5}
+
+\SpellDesc{Siła niedźwiedzia	& Tkanie mistycyzmu	& 3	& -6	& Dotyk	& 11	& 2P rund}
+\Effect{SF +5}
+
+\SpellDesc{Wytrzymałość tura	& Tkanie mistycyzmu	& 3	& -6	& Dotyk	& 13	& 2P rund}
+\Effect{ŻW +5 (razem z PŻ), po ustaniu zaklęcia postać traci 10 PŻ}
+
+\SpellDesc{Wzrok orła		& Tkanie mistycyzmu	& 3	& -6	& Dotyk	& 11	& 2P rund}
+\Effect{PR +5}
+
+\SpellDesc{Ożywienie szkieletów	& Tkanie mistycyzmu	& 3	& -6	& Dotyk	& 16	& 3P godzin}
+\Effect{ożywia do P/4 humanoidalnych lub zwierzęcych szkieletów}
+
+\SpellDesc{Umysł ze stali		& Tkanie mistycyzmu	& 3	& -7	& Dotyk	& 12	& 2P rund}
+\Effect{SW +5}
+
+\SpellDesc{Srebrny język		& Tkanie mistycyzmu / myśli	& 3	& -6	& Dotyk	& 11	& 2P rund}
+\Effect{CH +5}
+
+\SpellDesc{Iluzoryczna powierzchnia & Tkanie myśli	& 3	& -5	& 1m/P	& 15	& 2P dni}
+\Effect{Ściana, sufit, podłoga czy inna powierzchnia, która wygląda jak prawdziwa ale można przejść przez nią}
+
+\SpellDesc{Języki świata		& Tkanie myśli	& 3	& -5	& Osobisty	& 10	& P min}
+\Effect{postać rozumie wszystkie języki świata}
+
+\SpellDesc{Rozproszenie niewidzialności & Tkanie myśli	& 3	& -5	& R=P/3m	& 12	& Chwila}
+\Effect{Odsłania wszystkie niewidzialne osoby (chyba, że mag chce niektóre zostawić ukryte)}
+
+\SpellDesc{Iluzoryczny teren	& Tkanie myśli	& 3	& -6	& R=Pm	& 17	& P godzin}
+\Effect{Zmienia wygląd terenu}
+
+\SpellDesc{Masowe uśpienie		& Tkanie myśli	& 3	& -6	& 1m/P	& 15	& Efekt rund}
+\Effect{Wirtualny atak +2/+0, udany oznacza uśpienie do P/4 osób na efekt rund}
+
+\SpellDesc{Głęboki sen		& Tkanie myśli	& 3	& -5	& 2m	& 12	& 2 dni}
+\Effect{Wprawia jedną śpiącą osobę w BARDZO silny sen, może on trwać do 2 dni}
+
+\SpellDesc{Gniew			& Tkanie myśli	& 3	& -6	& 1m/P	& 17	& Efekt rund}
+\Effect{Ofiara zaczyna nienawidzieć innej postaci i zrobi wszystko by ją skrzywdzić}
+
+\SpellDesc{Rozpacz			& Tkanie myśli	& 3	& -6	& 1m/P	& 16	& Efekt rund}
+\Effect{Wirtualny atak +2/+0, ofiara wpada w rozpacz i apatię, nie atakuje nie sprowokowana, otrzymuje karę -3 do D i R}
+
+\SpellDesc{Strach			& Tkanie myśli	& 3	& -6	& 1m/P	& 17	& Efekt rund}
+\Effect{Wirtualny atak +1/+0 określa natężenie strachu - postać może uciec, zastygnąć z przerażenia, zemdleć itp.}
+
+\SpellDesc{Nadzieja		& Tkanie myśli	& 3	& -6	& 1m/P	& 16	& P rund}
+\Effect{Postać otrzymuje premię +2 do A, D, M i R}
+
+\SpellDesc{Odwaga			& Tkanie myśli	& 3	& -6	& 1m/P	& 17	& P rund}
+\Effect{Przełamuje strach, przy teście spornym przysługuje mod. +2, uodparnia ofiarę na strach na P rund}
+
+\SpellDesc{Iluzoryczne postacie	& Tkanie myśli	& 3	& -7	& 2m/P	& 20	& 2P rund}
+\Effect{Jak iluzoryczna osoba ale tworzy do P/4 osób}
+
+\SpellDesc{Zauroczenie stworzenia	& Tkanie myśli	& 3	& -6	& 1m/P	& 18	& Efekt rund}
+\Effect{Jak zauroczenie lecz na dowolną niemagiczną istotę, podczas testu premia +2}
+
+\SpellDesc{Iluzoryczne wezwanie	& Tkanie myśli i tkanie wezwań	& 3+1	& -7	& 1m/P	& 10+	& 3P rund}
+\Effect{Naśladuje dowolne znane (ew. widziane) zaklęcie przywołujące, potwory są realne póki się w nie wierzy}
+
+\SpellDesc{Przebicie osłon		& Rzucanie czarów	& 6	& -7	& 2m/P	& 11	& Chwila}
+\Effect{Rozprasza defensywne zaklęcia, premia +6}
+
+\SpellDesc{Widzenie		& Rzucanie czarów	& 6	& -6	& 10km/P	& 20	& P min}
+\Effect{Szpieguje daną postać z oddali, wymaga zwierciadła, kryształowej kuli itp, osobistej rzeczy ofiary, jej imienia i udanego testu PR vs R}
+
+\SpellDesc{Stożek zimna		& Tkanie żywiołów	& 4	& -6	& 3m/P	& 21	& Efekt rund}
+\Effect{Lodowy atak w stożku o r=1m/3P o sile +3/+5; spowalnia ofiarę (-3 do ZR) na efekt rund}
+
+\SpellDesc{Ulewa			& Tkanie żywiołów	& 4	& -5	& 3m/P	& 17	& P rund}
+\Effect{Na obszarze o r=P/2m zaczyna lać jak z cebra, wszystkie niemagiczne płomienie gasną, istoty ognia co rundę wystawione są na atak +0/+4 wszystkie czary i moce ognia są osłabione}
+
+\SpellDesc{Lodowa aura		& Tkanie żywiołów	& 4	& -6	& Osobisty	& 15	& P rund}
+\Effect{Maga otacza aura zimna, postacie przebywające < niż 1,5m od niego mają -2 ZR i co rundę odnoszą 1PO, ponadto mag otrzymuje R +3 przeciwko atakom zimna}
+
+\SpellDesc{Ochronny wiatr		& Tkanie żywiołów	& 4	& -7	& Osobisty	& 17	& P+4 rund}
+\Effect{Mag jest chroniony przed strzałami i bełtami, przed bronią miotaną ma premię D +5}
+
+\SpellDesc{Skalny kostur		& Tkanie żywiołów	& 4	& -6	& Dotyk	& 20	& 3P rund}
+\Effect{Mag tworzy kostur będący bronią +1/+4 i dającą +2 D, mag jest traktowany jakby miał biegłość kostur: 6}
+
+\SpellDesc{Wicher			& Tkanie żywiołów	& 4	& -5	& 2m/P	& 17	& Chwila}
+\Effect{Wirtualny atak +2/+0, powala ofiary stojące przed magiem i odrzuca o efekt metrów, może rozwiewać chmury, roje itp}
+
+\SpellDesc{Spowolnienie		& Tkanie żywiołów / mistycyzmu	& 4	& -6	& 1m/P	& 15	& Efekt rund}
+\Effect{Ofiara ma ZR -6 i traci jeden atak na 3 rundy,}
+
+\SpellDesc{Przyspieszenie		& Tkanie żywiołów / mistycyzmu	& 4	& -7	& 1m/2P	& 16	& P rund}
+\Effect{ZR +6, cel może wykonać dodatkowy atak (nie czar), począwszy od III rundy postać musi wykonać test ŻW z mod. -1 za każdą rundę przyspieszenie (od III), nieudany oznacza rundę odpoczynku}
+
+\SpellDesc{Wezwanie piekielnych ogarów	& Tkanie wezwań	& 4	& -7	& 1m/P	& 23	& 2P rund}
+\Effect{wzywa P/4 piekielnych ogarów, pojawiają się w kuli ognia o r=4m i sile +0/+3}
+
+\SpellDesc{Ochronny krąg		& Tkanie wezwań	& 4	& -6	& r=1,5m	& 16	& P minut}
+\Effect{tworzy ochronny krąg, przywoływane przez maga stwory by zaatakować maga muszą wykonać sporny test SW z mod. -5}
+
+\SpellDesc{Silniejsza dominacja nad potworem	& Tkanie wezwań	& 4	& -6	& 1m/P	& 15	& efekt rund}
+\Effect{Jak dominacja nad potworem ale z premią +4}
+
+\SpellDesc{Skok przez wymiary	& Tkanie wezwań	& 4	& -7	& 2m/P	& 17	& chwila}
+\Effect{teleportuje maga z bagażem do 100 kg na miejsce w polu widzenia}
+
+\SpellDesc{Niewidzialny tropiciel	& Tkanie wezwań	& 4	& -7	& 1m/P	& 20	& 2P dni}
+\Effect{wzywa niewidzialnego tropiciela, będzie on podążał za ofiarę i informował maga}
+
+\SpellDesc{Przywołanie Raggonów	& Tkanie wezwań	& 4	& -7	& 2m/P	& 21	& 3P rund}
+\Effect{wzywa P/4 Raggonów}
+
+\SpellDesc{Przywołanie Gehadrów	& Tkanie wezwań	& 4	& -7	& 2m/P	& 20	& 3P rund}
+\Effect{wzywa P/3 Gehadrów}
+
+\SpellDesc{Ukrycie wezwania	& Tkanie wezwań	& 4	& -6	& Osobisty	& 15	& P minut}
+\Effect{gdy mag rzuca zaklęcie przywołujące demony, testy wypatrzenia go przez Suzerenów mają mod. -5}
+
+\SpellDesc{Wygnanie		& Tkanie wezwań	& 4	& -6	& 2m/P	& 17	& P dni}
+\Effect{jak Odesłanie ale działa tylko na demony i żywiołaki, ma za to premię +5 i odesłane istoty nie mogą powrócić przez P dni}
+
+\SpellDesc{Wymiarowa kotwica	& Tkanie wezwań	& 4	& -7	& 2m/P	& 18	& 2P rund}
+\Effect{ofiara by przejść przez wymiary musi zrobić test sporny SW z mod. -6}
+
+\SpellDesc{Klatka mocy		& Tkanie wezwań	& 4	& -6	& 2m/P	& 15	& 4P rund}
+\Effect{jak klatka ale próby wydostania się mają mod. -8, próby uwolnienia mod. -4, zaś postacie w klatce mają karę -6 P}
+
+\SpellDesc{Potężniejsze ożywienie	& Tkanie mistycyzmu	& 4	& -6	& dotyk	& 15	& 3P godzin}
+\Effect{Jak ożywienie ciał ale możliwe jest ożywienie ciał magicznych stworzeń i wielkich humanoidów}
+
+\SpellDesc{Stworzenie zombiech	& Tkanie mistycyzmu	& 4	& -7	& dotyk	& 23	& 4P godzin}
+\Effect{ożywia do P/3 zombiech z humanoidalnych lub zwierzęcych ciał}
+
+\SpellDesc{Tarcza światłości	& Tkanie mistycyzmu	& 4	& -7	& dotyk	& 20	& 2P rund}
+\Effect{D i R +5 przeciw ożywieńcom i demonom, ponadto atakując chronioną postać istoty te otrzymują 1 PO}
+
+\SpellDesc{Stworzenie trucizny	& Tkanie mistycyzmu	& 4	& -6	& dotyk	& 18	& 3P rund}
+\Effect{zatrucie broni trucizną pajęczą}
+
+\SpellDesc{Zatrucie		& Tkanie mistycyzmu	& 4	& -7	& 1m/2P	& 18	& Efekt rund}
+\Effect{wirtualny atak +1/+0, udany oznacza zatrucie ofiary trucizną lamii pustynnej}
+
+\SpellDesc{Antidotum		& Tkanie mistycyzmu	& 4	& -6	& dotyk	& 17	& chwila}
+\Effect{usunięcie z organizmu trucizny, niekiedy potrzebny test sporny}
+
+\SpellDesc{Absorpcja mocy		& Tkanie mistycyzmu	& 4	& -7	& osobisty	& 21	& P rund}
+\Effect{R +4, ilekroć postać jest celem czaru kierowanego odzyskuje PM równe 1/4 kosztu PM danego czaru}
+
+\SpellDesc{Nasączenie mocą		& Tkanie mistycyzmu	& 4	& -7	& Osobisty	& 20	& P+2 rund}
+\Effect{P+3, PM +12, po upływie czasu trwania postać traci 12 PM (jeśli nie ma, zamiast PM traci PŻ)}
+
+\SpellDesc{Błogosławieństwo	& Tkanie mistycyzmu	& 4	& -6	& 1m/2P	& 14	& P+2 rund}
+\Effect{wszyscy sojusznicy maga otrzymują +1 A D i M}
+
+\SpellDesc{Przekleństwo		& Tkanie mistycyzmu	& 4	& -6	& 1m/2P	& 14	& P+2 rund}
+\Effect{wszyscy wrogowie maga otrzymują -1 A D i M}
+
+\SpellDesc{Mowa umarłych		& Tkanie mistycyzmu	& 4	& -7	& osobisty	& 16	& P min}
+\Effect{postać może porozumiewać się z umarłymi}
+
+\SpellDesc{Grupowy paraliż		& Tkanie mistycyzmu / myśli	& 4	& -7	& 1m/P	& 20	& Efekt rund}
+\Effect{wirtualny atak +3/+0, unieruchamia do P/3 osób}
+
+\SpellDesc{Zmiana wyglądu		& Tkanie myśli	& 4	& -6	& dotyk	& 10+4/P min	& P min}
+\Effect{zmienia znacząco wygląd postaci}
+
+\SpellDesc{Grupowa zugestia	& Tkanie myśli	& 4	& -6	& Głos	& 14	& efekt rund}
+\Effect{jak sugestia ale działa na P/2 osób i przysługuje premia +3}
+
+\SpellDesc{Zniewolenie umysłu	& Tkanie myśli	& 4	& -6	& Głos	& 17	& Efekt rund}
+\Effect{wirtualny atak +2/+0, ofiara wierzy, że jest niewolnikiem maga i musi wykonywać jego rozkazy.}
+
+\SpellDesc{Sfera niewidzialności	& Tkanie myśli	& 4	& -7	& r=P/4m	& 20+6/P min	& P min}
+\Effect{jak niewidzialność ale ukrywa wszystkie osoby na obszarze działania}
+
+\SpellDesc{Zdruzgotanie umysłu	& Tkanie myśli	& 4	& -7	& 1m/2P	& 16	& P/2 rund}
+\Effect{Atak na umysł +3/+1, ignoruje zwyczajne zbroje ale nie tarcze, udany oznacza, że ofiara ma karę -3 R przeciwko próbom wpływania na umysł}
+
+\SpellDesc{Chaos myśli		& Tkanie myśli	& 4	& -7	& 1m/2P	& 15	& Efekt rund}
+\Effect{wirtualny atak +4/+0; ofiara zachowuje się w sposób losowy i nieprzewidywalny}
+
+\SpellDesc{Mowa świata		& Tkanie myśli	& 4	& -6	& Osobisty	& 13	& P min}
+\Effect{postać potrafi się porozumiewać we wszystkich językach}
+
+\SpellDesc{Litość			& Tkanie myśli	& 4	& -5	& Osobisty	& 15	& 3P rund}
+\Effect{wszystkie postacie, nawet wrogowie, są do maga lepiej nastawione - mogą np. go wziąć do niewoli zamiast zabić, okraść zamiast pobić i okraść itp.}
+
+\SpellDesc{Miraż			& Tkanie myśli	& 4	& -7	& r=Pm	& 22	& P godzin}
+\Effect{zmienia znacząco wygląd terenu, można tworzyć iluzyjne budynki lub bardziej skomplikowane elementy krajobrazu}
+
+\end{LongColorTable}
+\end{small}
+

@@ -1,0 +1,57 @@
+%\documentclass[a4paper,onecolumn,11pt]{scrreprt}
+\documentclass[a4paper,onecolumn,10pt]{scrreprt}
+\usepackage[utf8]{inputenc}
+\usepackage[OT4]{polski}
+
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage[table,svgnames]{xcolor}
+\usepackage{fullpage}
+
+\makeindex
+%\pagestyle{headings}
+%\usepackage{a4wide}
+
+\input{Style.latex}
+
+\begin{document}
+%%%%%% %%%%%% %%%%%% %%%%%% FRONT PAGE %%%%%% %%%%%% %%%%%% %%%%%% 
+\thispagestyle{empty}
+\vspace*{\stretch{1}}
+\begin{center}
+
+\Huge{\textsc{Vorago RPG}}\\
+\Large{\textsc{Świat: Pustka}}\\
+
+\large v0.1\\
+
+\begin{figure}[h]
+\center \includegraphics[scale=0.7]{Images/FrontImage}
+\end{figure}
+
+\large
+(C) 2003--2007 by\\
+Tomasz ,,bla'' Fortuna\\
+\normalsize {\emph{(bla@thera.be TomaszFortuna@gmail.com)}}\\
+\large
+Filip Koza\\
+Małgorzata Urszula Fortuna\\
+\end{center}
+\vspace*{\stretch{1}}
+\clearpage
+%%%%%% %%%%%% %%%%%% %%%%%% FRONT PAGE END %%%%%% %%%%%% %%%%%% %%%%%% 
+
+\tableofcontents
+\listoftables
+
+\input{Magic.latex}
+\input{Development.latex}
+\input{Races.latex}
+\input{Equipment.latex}
+
+% \appendix
+
+\printindex
+\end{document}
+

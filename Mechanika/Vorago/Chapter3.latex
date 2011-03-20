@@ -1,0 +1,110 @@
+\section{Tworzenie postaci}
+Zaczynamy! Potrzebna nam ładna kartka, ołówek, parę kości \K{20} (\K{V})
+i~opcjonalnie dwie \K{6}.  Fajnie będzie jeżeli skorzystacie z~załączonych
+kart postaci. Dużo przyjemniej się ich używa. W~tym rozdziale korzystamy z
+pojęć wprowadzonych wcześniej w~opisie mechaniki.
+
+Tworzenie postaci warto zacząć od introspekcji. Należy zastanowić się nad
+typem postaci jaką chcemy prowadzić. Zastanawiamy się nad kierunkiem jej
+rozwoju (,,profesją''). Wybieramy na tym etapie rasę postaci, imię, płeć,
+drugorzędne cechy fizyczne itp\ldots
+
+Po zakończeniu tego etapu powinniśmy wiedzieć, które cechy dla naszej
+postaci są najistotniejsze, które mniej i~które możemy w~procesie tworzenia
+lekko zaniedbać. Opis jak i~poprzednia część podręcznika używa przykładów
+świata fantasy.
+
+\subsection{Współczynniki postaci}
+
+\subsubsection*{\index{cechy podstawowe}Cechy podstawowe}
+Tworzenie postaci zaczynamy od ustalenia sześciu cech podstawowych.  Na tym
+etapie cechy nie powinny znajdować się poza zakresem -8 do 8.  Do ich
+,,wygenerowania'' możemy polecić parę metod.
+
+\begin{itemize}
+\item[--] Metoda ,,sprawiedliwa''; Każdej cesze przypisujemy początkowo
+  wartość 0 i~według uznania niektóre podnosimy, a~niektóre zmniejszamy tak
+  by ich suma ostatecznie wyniosła zero. Możemy w ten sposób stworzyć
+  dokładnie taką postać jaką chcemy.
+
+\item[--] Metoda o dużym losowym rozrzucie cech: Rzucamy sześciokrotnie
+  \K{V} odrzucając wyniki -9, 9 i 10. Następnie przyporządkowujemy je do
+  cech w odpowiadającym naszej postaci porządku.
+
+\item[--] \MK{2}{6} - 4; Ten rzut umożliwia otrzymanie cechy
+  w~granicy od -2 do 8, dzięki czemu możemy uzyskać bardziej
+  ,,napakowane'' postaci.
+  
+\item[--] \MK{2}{6} - 6; Zakres od -4 do 6. Ta metoda wydaje się
+  być optymalna. Nie stworzymy za jej pomocą postaci o~maksymalnych
+  współczynnikach, ale też możemy być pewni, że nie trafimy na
+  współczynniki nas nie zadowalające.	
+\end{itemize}
+
+Od graczy i~\MG zależy czy będą najpierw losowali wartości, a~potem
+przypisywali je poszczególnym cechom, czy wolą losować i~przypisywać
+wartości cechom od razu. W~drugim przypadku wybór drogi życiowej postaci
+powinien nastąpić raczej po losowaniu współczynników.  W~przeciwnym wypadku
+można źle trafić\ldots
+
+\subsubsection*{\index{współczynniki bitewne}Współczynniki bitewne}
+Postacie posiadają 5 współczynników bitewnych. Każdy z~nich jest
+odpowiednio zaokrągloną średnią arytmetyczną dwóch cech podanych~w
+pierwszym rozdziale w~tabeli (\ref{wsp bitewne}).
+
+\Example{Dla osoby o~$\SCut{Sf}=3$ i~$\SCut{Zr}=0$ współczynnik
+A~obliczamy następująco: 3+0 = 3, 3/2=1.5. Po zaokrągleniu 1.5
+w~stronę \SCut{Sf} (czyli w~górę) otrzymujemy współczynnik \SCut{A}~równy
+2. W~taki sam sposób obliczamy pozostałe współczynniki wyniki zapisując na
+karcie naszej postaci.}
+
+\subsubsection*{\index{współczynniki pochodne}Współczynniki pochodne}
+Do zapisania pozostały nam 4 współczynniki:
+\begin{itemize}
+\item \index{punkty życia}\Name{Punkty życia}, równe $ 2 * \SCut{Żw} + 20 $
+
+\item \index{punkty mocy}\Name{Punkty mocy} równe $ 2 * \SCut{P} + 20 + (10
+  * $ poziom umiejętności \emph{rzucanie czarów}).
+
+\item \index{współczynnik zdrowienia}\Name{Współczynnik zdrowienia}
+  równy \SCut{Żw}
+
+\item \index{inicjatywa}\Name{Inicjatywa} równa \SCut{Zr}
+
+\end{itemize}
+
+\subsection{Umiejętności i~czarów}
+Gracze podczas tworzenia postaci mają dziesięć punktów, które muszą
+rozdysponować pomiędzy pierwszo-poziomowe umiejętności i~biegłości.
+Jeżeli przeznaczą punkty na umiejętności czytanie/pisanie runów i~rzucanie
+czarów, powinni przeznaczyć punkty również na zaklęcia.  Za każdy jeden
+punkt mag może sobie kupić dwa zaklęcia.
+
+Umiejętności powinny być wybrane w~ramach zdrowego rozsądku. \MG nie
+powinien się zgodzić na umiejętności jego zdaniem zbyt potężne lub zbyt
+ogólne. Na waszej karcie koło umiejętności powinniście zapisać jaką cechę
+modyfikują oraz jaka jest wartość tej cechy (lub współczynnika dla
+biegłości) po modyfikacji.
+
+\subsection{Ekwipunek i~uzbrojenie}
+Wszystkie postacie na start posiadają przedmioty związane z~posiadanymi
+przez nie umiejętnościami. Każda postać posiada ubranie podróżne,
+pochodnie, hubkę, krzesiwo, bukłak z~wodą, derkę, kilka racji
+żywnościowych, plecak i~sakiewkę. Z~broni każda osoba na pewno na starcie
+posiada od jednego do trzech sztyletów. Gracze posiadają także po jednym
+egzemplarzu broni, w~których mają biegłość oraz zbroję. Magowie posiadają
+swoją księgę czarów, kilka arkuszy papieru, pióro i~fiolkę z~atramentem.
+Należy pamiętać o~tym, że nie mogą mieć zbroi cięższej od lekkiej kolczugi.
+\MG może się zgodzić na inne przedmioty zaproponowane przez
+graczy. Każda z~postaci dostanie tyle pieniędzy, za ile mogła by przez
+tydzień w~mieście wyżyć~--- jakieś umowne 30 srebrników.
+
+Tak jak przy umiejętnościach podczas wpisywania na kartę wybranych broni,
+zapisujemy obok zmodyfikowane przez broń oraz nasze biegłości \SCut{A}~lub
+\SCut{M}, w~przypadku zbroi \SCut{D}.
+
+\subsection{Tło}
+Po stworzeniu postaci można ustalić pewne tło, które powinno pomóc
+graczom w~odgrywaniu ich podopiecznych. Miejsce pochodzenia, jej
+dzieciństwo i~związek z rodziną, historię. Jej charakter postaci,
+osobowość, zainteresowania i~styl bycia.

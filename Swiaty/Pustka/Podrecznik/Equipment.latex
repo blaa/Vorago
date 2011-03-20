@@ -1,0 +1,83 @@
+\chapter{Ekwipunek}
+
+ółćź
+\section{Bronie, zbroje i tarcze}
+
+\begin{table}[ht]
+\begin{center}
+\begin{ColorTable}{|p{80pt}|p{20pt}|c|c|p{70pt}|l|}{6}
+\LightHeader{Broń &	Atak &	Obrażenia &	Typ &	Mod. & Biegłość}
+Atak wręcz &	0 &	0 &	Obuchowy &	-- &	Walka wręcz\\
+Kastet &	0 &	1 &	Obuchowy &	-- &	Walka wręcz\\
+Pałka &		1 &	0 &	Obuchowy &	-- &	Broń obuchowa\\
+Maczuga &	0 &	4 &	Obuchowy &	-- &	Broń obuchowa\\
+Korbacz &	-1 &	6 &	Obuchowy &	Krytyk +1, pechowy +1 &	Broń obuchowa\\
+Młot bojowy &	1 &	3 &	Obuchowy &	-- &	Broń obuchowa\\
+Dwuręczny młot &	0 &	6 &	Obuchowy &	-1D, -1I &	Broń dwuręczna\\
+Sztylet &	0 &	1 &	Kłuty &		-- &	Sztylet\\
+Krótki miecz &	2 &	1 &	Kłuty &		-- &	Broń sieczna\\
+Długi miecz &	2 &	2 &	Tnące &		-- &	Broń sieczna\\
+Miecz półtoraręczny &	1 &	4 &	Tnące &	-- &	Broń sieczna / dwuręczna\\
+Miecz dwuręczny &	0 &	6 &	Tnące &	-1D, -1I &	Broń dwuręczna\\
+Pałasz &	1 &	3 &	Tnące &		-- &	Broń sieczna\\
+Siekiera &	0 &	2 &	Tnące &		-- &	Broń sieczna\\
+Topór bojowy &	0 &	4 &	Tnące &		-- &	Broń sieczna\\
+Berdysz &	0 &	6 &	Tnące &	-1D, -1I &	Broń dwuręczna\\
+Halabarda &	-2 &	8 &	Tnące &	-1D, -1I &	Broń drzewcowa\\
+Młot lucerneński &	-2 &	8 &	Obuchowy &	-1D, -1I &	Broń drzewcowa\\
+Pika &		-1 &	6 &	Kłuty &	-1D, -1I &	Broń drzewcowa\\
+Włócznia &	-1 &	4 &	Kłuty &	+1D, -1I &	Broń drzewcowa / kostur\\
+Oszczep &	-1 &	2 &	Kłuty &	-- &	Broń drzewcowa\\
+Kostur &	1 &	0 &	Kłuty &	+1D, -I &	Kostur\\
+Proca &		1 &	1 &	Obuchowy &	-- &	Proca\\
+Łuk krótki &	1 &	1 &	Kłuty &		-- &	Łuk\\
+Łuk &		1 &	2 &	Kłuty &		-- &	Łuk\\
+Łuk długi &	2 &	2 &	Kłuty &		-- &	Łuk\\
+Łuk długi refleksyjny &	2 &	3 &	Kłuty &	-- &	Łuk\\
+Kusza ręczna &	0 &	2 &	Kłuty &		-- &	Kusza\\
+Kusza lekka &	0 &	4 &	Kłuty &		-- &	Kusza\\
+Kusza &		0 &	6 &	Kłuty &	Przeładowanie runda &	Kusza\\
+Kusza ciężka &	-1 &	8 &	Kłuty &	Przeładowanie 2 rundy &	Kusza\\
+\end{ColorTable}
+\caption{Podstawowe bronie}
+\label{bronie}
+\end{center}
+\end{table}
+
+
+
+
+\begin{table}[ht]
+\begin{center}
+\begin{ColorTable}{|l|c|c|c|}{4}
+
+\LightHeader{Zbroja &	Obrona &	Wyparowania &	mod. Inicjatywy}
+Zbroja skórzana &	0 &	1 &	0 \\
+Zbroja skórzana ćwiekowana &	1 &	1 &	-1 \\
+Zbroja skórzana warstwowa &	0 &	2 &	-1 \\
+Lekka kolczuga &	1 &	2 &	-2 \\
+Ciężka kolczuga &	0 &	4 &	-3 \\
+Zbroja łuskowa &	1 &	3 &	-3 \\
+Zbroja płytowo- kolcza &	0 &	5 &	-4 \\
+Pełna zbroja płytowa &	-1 &	7 &	-5 \\
+\end{ColorTable}
+\caption{Podstawowe zbroje}
+\label{zbroje}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[ht]
+\begin{center}
+\begin{ColorTable}{|l|c|c|c|c|}{5}
+\LightHeader{Tarcza & Obrona & Wyparowania & mod. Ataku & mod. Inicjatywy}
+Puklerz &	0 &	1 &	-1 &	-1 \\
+Mała tarcza &	0 &	2 &	-1 &	-2 \\
+Średnia tarcza&	1 &	2 &	-2 &	-3 \\
+Pawęż &		2 &	3 &	-3 &	-4 \\
+\end{ColorTable}
+\caption{Podstawowe tarcze}
+\label{tarcze}
+\end{center}
+\end{table}

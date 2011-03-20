@@ -1,0 +1,76 @@
+% Vorago - definicje komend i kolorów stylu tekstu
+
+%%%% Definicje kolorystyki dokumentu %%%%
+\definecolor{CDark}{rgb}{0.4,0.4,0.6}
+\definecolor{CLight}{rgb}{0.6,0.6,0.8}
+\definecolor{CGray}{rgb}{0.9,0.9,0.9}
+\definecolor{CExpression}{named}{Green}
+\definecolor{CDefault}{named}{black}
+\definecolor{CRow}{named}{LightGray}
+
+%%% Funkcje nadaj±ce styl ``nazwom w³asnym'' u¿ywanym w tek¶cie %%%
+% Funkcja wprowadzaj±ca nowe okre¶lenie - inny kolor, tekst pochylony
+\newcommand{\NewName}[1]{\textcolor{CExpression}{\emph{#1}}}
+% Okre¶lenie u¿ywane by³o wcze¶niej zdefiniowane, ale i tak je podkre¶lamy
+% jako ``nazwê w³asn±''.
+\newcommand{\Name}[1]{\emph{#1}}
+% Wszystkie skróty s± wypisane pogrubion± czcionk±
+\newcommand{\SCut}[1]{\textbf{#1}}
+
+%%% Indeksuj±ce odpowiedniki %%%
+\newcommand{\idNewName}[1]{\index{#1}\NewName{#1}}
+\newcommand{\idName}[1]{\index{#1}\Name{#1}}
+\newcommand{\idSName}[1]{\index{#1}#1}
+\newcommand{\idSCut}[1]{\index{#1}\SCut{#1}}
+
+%%% Funkcje tworz±ce tabele %%%
+
+% ¦rodowisko w którym u¿ywamy funkcji tabeli
+% Parametry: uk³ad kolumn (|c|c|...), ilo¶æ kolumn
+\newenvironment{ColorTable}[2]
+{
+	\def\ColumnNumber{#2}
+	% Zmienna kolorystyka, oddzielone poziom± lini±...
+	\rowcolors[\hline]{0}{white}{CRow}
+	\begin{tabular}{#1}
+}
+{
+	\end{tabular}
+}
+
+\newenvironment{LongColorTable}[2]
+{
+	\def\ColumnNumber{#2}
+%	\rowcolors[\hline]{0}{white}{CRow}
+	\begin{longtable}{#1}
+}
+{
+	\end{longtable}
+}
+
+% Pojedyncza komórka...
+\newcommand{\SingleCell}[2]
+	{\multicolumn{\ColumnNumber}{#1}{ #2 } \\}
+
+% G³ówny nag³ówek.
+% Dwa parametry: liczba kolumn, tekst nag³ówka
+\newcommand{\PrimaryHeader}[1]
+	{\SingleCell{|c|}{\cellcolor{CDark} #1}}
+
+% Funkcje ustawiaj±ce kolor dla rzêdu w tabeli
+\newcommand{\DarkHeader}[1]
+	{\rowcolor{CDark}#1\\}
+\newcommand{\LightHeader}[1]
+	{\rowcolor{CLight}#1\\}
+
+\newcommand{\GrayRow}
+	{\rowcolor{CGray}}
+\newcommand{\LightCell}
+	{\cellcolor{CLight}}
+\newcommand{\GrayCell}
+	{\cellcolor{CGray}}
+
+
+%\newcommand{\Name}[1] {\emph{#1}}
+
+

@@ -1,0 +1,648 @@
+\section{Opis mechaniki \Vorago}
+
+W tym rozdziale opowiemy z~jakich elementów składa się pełen opis bohaterów
+światów \Vorago, co oznaczają poszczególne składowe tego opisu oraz w~jaki
+sposób mogą wchodzić~z sobą w~interakcje. Sposoby na tworzenie postaci,
+opisów stworzeń lub przedmiotów od zera przedstawimy dopiero w~następnym
+rozdziale.
+
+\subsection{Opis postaci}
+Na opis postaci składają się:
+\begin{enumerate}
+\item \index{cechy podstawowe}\NewName{Cechy podstawowe} --- Sześć liczb
+  opisujących wrodzone zdolności postaci.
+
+\item \index{współczynniki bitewne}\NewName{Współczynniki bitewne} --- Pięć
+  liczb, określających zdolności bojowe.
+
+\item \index{współczynniki pochodne}\NewName{Współczynniki pochodne}~---
+  Zalicza się do nich \index{punkty życia}\NewName{Punkty Życia},
+  \NewName{Punkty Mocy} i~\index{inicjatywa}\NewName{Inicjatywę}. Wynikają
+  bezpośrednio z cech \Name{podstawowych}. 
+
+\item \index{umiejętności}\NewName{Umiejętności} --- Odzwierciedlają nabytą
+  przez postać wiedzę w~jakimś temacie; zazwyczaj modyfikują cechy postaci.
+
+\item \index{biegłości}\NewName{Biegłości} ---
+  Umiejętności w~posługiwaniu się bronią; modyfikują współczynniki bitewne.
+\end{enumerate}
+
+W systemie, w~przeciwieństwie do wielu innych, nie istnieje pojęcie
+\Name{profesji}. Określa ją w~sposób wystarczający to w~czym postać jest
+najlepsza~--- a to wynika z~kompletu cech i~umiejętności.
+
+\subsubsection*{\index{cechy podstawowe}Cechy podstawowe}
+Dzielimy cechy na grupę opisującą zdolności fizyczne oraz drugą, która
+opisuje zdolności psychiczne. Na ich podstawie określimy jak dobrze postać
+radzi sobie z~wykonywaniem wszystkich akcji w~grze. Każdej przyporządkowany
+jest dwuliterowy skrót (patrz tabela cech poniżej).
+
+Wartości cech zawierają się~w przedziale od -9 do 10 i~opisują jak bardzo
+wrodzone zdolności postaci różnią się od przeciętnej. Jednym z zadań,
+którym jest obarczony \MG jest ustalanie, które cechy mają zastosowanie
+przy określaniu szansy powodzenia czynności wykonywanych przez graczy.
+W~większości przypadków jest to bardzo intuicyjne.
+
+\Example{Za ich pomocą można stwierdzić czy postać będzie w~stanie podnieść
+  ciężki przedmiot (\SCut{Sf}), zrozumieć tekst zaszyfrowany lub napisany
+  w~dziwnym dialekcie (\SCut{Pr}), ukraść klucz z~kieszeni dozorcy
+  (\SCut{Zr}), wytrzymać działanie trucizny (\SCut{Żw}) lub przekonać
+  sprzedawcę, by sprzedał swój towar po niższej cenie (\SCut{Ch}).}
+
+%\end{multicols}
+%\begin{table*}[h!]
+  \begin{center}
+    \begin{ColorTable}{|c|c|}{2}
+      \PrimaryHeader{Cechy podstawowe}
+      \LightHeader{Fizyczne & Psychiczne}
+      Siła fizyczna (\idSCut{Sf})	& Percepcja (\idSCut{Pr}) \\
+      Zręczność (\idSCut{Zr})		& Siła Woli (\idSCut{Sw}) \\
+      Żywotność (\idSCut{Żw})		& Charyzma (\idSCut{Ch}) \\
+    \end{ColorTable}
+%    \caption{Cechy podstawowe}
+    \label{cechy}
+%    \line(1,0){450}
+  \end{center}
+%\end{table*}
+\index{siła fizyczna}\index{zręczność}\index{żywotność}
+\index{percepcja}\index{siła woli}\index{charyzma}
+%\begin{multicols}{2}
+
+\subsubsection*{\index{współczynniki bitewne}Współczynniki bitewne}
+Trzy z~nich określają zdolność postaci do przeprowadzenia ataku bronią
+białą, dystansową (strzelecką), oraz do podjęcia obrony.  Pozostałe dwa
+określają \index{moc} \NewName{Moc} postaci oraz jej magiczną
+\index{odporność} \NewName{Odporność}~--- używane w walkach magicznych. Ich
+skróty w~przeciwieństwie do skrótów \Name{cech podstawowych} są
+jednoliterowe (pochodzą z~języka angielskiego):
+
+\begin{center}
+\idSCut{A} (\index{attack}\NewName{Attack}),
+\idSCut{M} (\index{marksmanship}\NewName{Marksmanship}),
+\idSCut{D} (\index{defense}\NewName{Defense}), \\
+\idSCut{P} (\index{power}\NewName{Power}),
+\idSCut{R} (\index{resistance}\NewName{Resistance}) \\
+\Name{Atak}, \Name{Celność}, \Name{Obrona}, \Name{Moc}, \Name{Odporność}.  
+\end{center}
+
+%\end{multicols}
+\begin{table*}%[h!]
+  \begin{center}
+    \begin{ColorTable}{|c|c|c|c|}{4}
+
+      \DarkHeader{Współczynnik & Pierwsza cecha & Druga cecha & Podstawowy modyfikator}
+      \LightCell{A}	& Siła fizyczna	& Zręczność	& Broń		\\
+      \LightCell{M}	& Zręczność	& Percepcja	& Broń		\\
+      \LightCell{D}	& Zręczność	& Żywotność	& Zbroja	\\
+      \LightCell{P}	& Siła woli	& Percepcja	& Artefakty	\\
+      \LightCell{R}	& Siła woli	& Żywotność	& Artefakty	\\
+    \end{ColorTable}
+    
+    \caption{Współczynniki bitewne}
+    \label{wsp bitewne}
+%    \line(1,0){450}
+    
+  \end{center}
+\end{table*}
+%\begin{multicols}{2}
+
+Każdy ze współczynników jest średnią arytmetyczną dwóch \index{cecha
+  podstawowa} \Name{cech podstawowych}. W przypadku wyniku nie całkowitego
+zaokrąglamy go w kierunku wartości pierwszej z cech, tak jak zostało to
+przedstawione w tabeli~\ref{wsp bitewne}.
+
+\subsubsection*{\index{umiejętności}Umiejętności i~\index{biegłości}
+  biegłości}
+
+W \Vorago wrodzone zdolności postaci są symulowane przez ich
+cechy. Natomiast \idNewName{umiejętności} naśladują doświadczenie jakie
+postać zdobyła w~pewnej wąskiej dziedzinie.  Bohater z~pewną wiedzą,
+praktyką i~doświadczeniem lepiej sobie poradzi z~np.~skradaniem się, niż
+osoba z~taką samą zręcznością, lecz bez doświadczenia.
+
+Gdy postacie specjalizują się w~jakiejś czynności posiadają
+\Name{umiejętność}, która modyfikuje w~czasie testowania wartość cechy tak,
+by wykonanie tej wyuczonej czynności było łatwiejsze. Pełen opis posiadanej
+\Name{umiejętności} prócz nazwy zawiera skrót modyfikowanej cechy oraz
+modyfikator.
+
+\Example{Złodziej nie byłby złodziejem bez umiejętności ,,kradzież kieszonkowa
++2 (\SCut{Zr})''. Przy dokonywaniu kradzieży do jego zręczności dodawana jest
+dwójka. Osoba z~jego zręcznością lecz bez tej nabytej umiejętności nie
+radzi sobie z~kradzieżą tak dobrze jak on.}
+
+\index{biegłość}\NewName{Biegłości} są pewną podgrupą
+\Name{umiejętności}~--- Zawsze dotyczą posługiwania się bronią oraz
+modyfikują \Name{współczynniki bitewne}, a~nie cechy.
+
+W~czasie gry postacie mogą zdobywać nowe \Name{umiejętności} ucząc się od
+nauczycieli, czytając książki lub po prostu praktykując.
+
+\subsection{\index{testowanie}Testowanie współczynników}
+
+\index{test}\NewName{Test} umożliwia sprawdzenie czy graczowi powiodło się
+wykonanie trudnej czynności~--- trudnej to znaczy takiej od której
+zależy przebieg rozgrywki i~o~której testowaniu zadecyduje \MG.
+
+W~\Vorago używamy tylko jednego mechanizmu testowania. Znajduje on
+zastosowanie zarówno w~walce, rzucaniu czarów jak i~w~testowaniu powodzenia
+akcji pojedynczej postaci (jak np.~wspinaczka po murze, przejście po
+linie).
+
+Wszędzie tam gdzie istnieje możliwość, przeciwstawienia testowanej cesze
+cechę innej postaci (jak np.~w~walce), robimy to. Dzięki czemu zwalniamy \MG
+z~określania jak trudna jest dana czynność.
+
+\subsubsection*{Rzut \K{V}}
+Większość wykonywanych przez nas rzutów \K{20} kończy się odjęciem od niej
+10, dzięki czemu otrzymujemy liczbę z zakresu -9 do 10 informującą o ile
+nasz wynik różnił się od przeciętnego.
+
+Po pewnym czasie jest to tak naturalne, że na kości nie widzimy już 16,
+tylko 6; nie 4 tylko -6. Dlatego też w~dalszej części opisu będziemy mówić
+na ten rzut ,,\index{KV}\NewName{\K{V}}''. Może kiedyś wypuszczą takie
+kości.
+
+\subsubsection*{Przewaga}
+\index{przewaga}\NewName{Przewaga} to modyfikator określający o ile postać
+inicjalizująca akcję jest w jej wykonaniu lepsza od osoby na której tą
+akcję wykonuje. Oblicza się go odejmując od jednego ze współczynników
+postaci inicjalizującej akcję, współczynnik celu odpowiedzialny za obronę
+przed podjętymi działaniami~--- zwany dalej \index{kontr-współczynnik}
+kontr-współczynnikiem. \\
+
+\Example{Zrobimy tak np.~przy targowaniu się (charyzma kontra charyzma),
+  pojedynkach magicznych na siłę woli (siła woli vs.~siła woli), zapasach
+  (siła fizyczna vs.~siła fizyczna), gry (szachy: percepcja vs.~percepcja),
+  kradzieży kieszonkowej (zręczność vs.~percepcja) itd\ldots}
+
+Jeżeli akcja nie jest wykonywana na żadnym sprecyzowanym przeciwniku i~tym
+samym nie da się ustalić \Name{kontr-cechy} używamy \index{przewaga neutralna}
+ tzw.~\NewName{przewagi neutralnej}. Przyjmujemy wtedy wartość
+kontr-cechy równą zero i tym samym przewaga jest równa cesze
+atakującego. Bardzo często w takich przypadkach \MG może zalecić dodanie
+odpowiedniego modyfikatora zależnie od trudności akcji.
+
+Również w przypadku braku przeciwnika często nie interesuje nas efekt rzutu,
+a jedynie informacja czy zakończył się sukcesem czy niepowodzeniem.
+
+\subsubsection*{Przebieg testu i efekt}
+
+\Name{Test} składa się z pojedynczego rzutu \K{V} do którego dodawana jest
+\Name{przewaga} inicjalizującego test (,,atakującego''). Test jest
+zakończony sukcesem jeśli otrzymamy liczbę większą od zera, zakończony
+niepowodzeniem jeżeli wynik jest równy, lub mniejszy od zera.
+
+W przypadku sukcesu wynik jest od razu \index{efekt}\NewName{efektem} rzutu
+służącym do określenia ilości obrażeń, zasięgu działania czaru obszarowego,
+etc\ldots
+
+Wyróżniamy dwa wyniki rzutu kością: -9~--- rzut pechowy, zawsze oznacza
+niepowodzenie, a~od \MG zależą konkretne następstwa tego rzutu (może to być
+upuszczenie broni, skaleczenie sojusznika\ldots) oraz 10~--- rzut
+krytyczny, zawsze udany, który niezależnie od modyfikatorów oznacza efekt
+równy minimum 1, \MG ma prawo zarządzić związane z~tym zdarzenie (jak
+np.~dekapitację). Ma dodatkowe znaczenie w~walce.
+
+Realizując test można podzielić obliczanie przewagi na gracza i~na
+\MG. Dzięki czemu \MG może utrudnić graczom domyślenia się współczynników
+ich przeciwników. Podsumujmy przebieg \Name{testu}:
+
+\begin{enumerate}
+\item Jeżeli nie da się określić kontr-współczynnika do testu, jego wartość
+  ustala \MG. Może powiedzieć graczowi na tym etapie ile musi
+  wyrzucić by test zakończyć sukcesem.
+\item Rzucamy \K{V} dodając do wyniku wartość naszego testowanego
+  współczynnika. Wynik podajemy \MG.
+\item Jeżeli test wykonywany jest przeciwko innej postaci i da się określić
+  kontr-współczynnik \MG odejmuje go od podanej liczby i określa sukces lub
+  porażkę.
+\item W przypadku sukcesu określany jest \Name{efekt} i na jego podstawie w
+  zależności od tego co testowaliśmy ilość obrażeń, pieniędzy lub np.~czas
+  trwania czaru.
+\end{enumerate}
+
+\Example{Złodziej o~\SCut{Zr} = 5 i~kradzieży kieszonkowej +1 okrada kupca
+  z~\SCut{Pr} = 4. Przy rzucie \K{V} na kości \K{20} otrzymuje 13, $13 - 10
+  = 3$. Dodaje $6 + 3 = 9$ i~podaje wynik \MG, który od wyniku odejmuje
+  kontr-współczynnik kupca (\SCut{Pr}) równy 4, $9 - 4 = 5$ i~otrzymuje
+  efekt 6. \MG może uznać, że złodziej ukradł $5 * 10 = 50$ srebrników.}
+
+Im wartość cechy jest wyższa tym łatwiej postaci wykonywać związane z~nią
+akcje. Z~tego samego powodu modyfikator ustalany przez \MG dla czynności
+łatwych jest dodatni (zwiększa wartość cechy), dla trudnych ujemny.
+Wartość modyfikatora nie powinna być duża. Wartości cech zawierają się
+przeciętnie w~przedziałach od -8 do 8, a~więc dodanie, lub odjęcie dwójki
+stanowi dużą różnicę. \\
+
+\Example{Wojownik o~\SCut{Zr} równej 3 próbuje się wspiąć na wysoki
+  mur. \MG określa zadanie jako bardzo trudne modyfikując rzut o -2. Gracz
+  rzucając \K{V} musi otrzymać liczbę większą lub równą 0 aby wspinaczka
+  zakończyła się sukcesem}
+
+\subsubsection*{Określanie modyfikatora trudności}
+Postacie z cechą równą 0 mają 50\% szansę na sukces w niemodyfikowanym
+teście. Każda zmiana cechy zmienia tę szansę o 5\%.
+
+\subsection{Punkty życia i~testy zdrowienia}
+Ilość obrażeń które może przyjąć postać zanim umrze są reprezentowane przez
+jej \idNewName{punkty życia} (\idSCut{PŻ} lub \idSCut{HP}). W~trakcie gry
+postacie będą notowały bieżącą ilość obrażeń, gdy sięgnie ona \SCut{PŻ}
+następuje utrata przytomności (lub zgon~---\MG podejmuje decyzje).
+
+Nie rozróżniamy w~naszym systemie punktu trafienia, czy była to głowa,
+krocze czy ręka, choć można uznać, że obrażenia duże to uderzenia, które
+trafiły w~czułe miejsca~--- głowę, szyję, brzuch, krocze. Jeżeli zadano
+małe obrażenia to prawdopodobnie było to trafienie w~kończyny, lub
+uderzenie które ześlizgnęły się po zbroi.
+
+\SCut{PŻ} nie obrazują, więc bezpośrednio fizycznego stanu bohatera~---
+ilości jego ran. Podczas realnej walki rany zadawane są relatywnie rzadko
+(choć jak już się zdarzą to zwykle są dość głębokie\ldots i~trudno
+wytrzymać z~nimi dalszą walkę). Dlatego też należy patrzeć się na ilość
+obrażeń bardziej ogólnie. Zawiera ona informację o~zmęczeniu bohatera,
+sumie jego wszystkich draśnięć, ran, niewyspania i~głodu.  W~pewnym
+momencie postać nie może już tego znieść, co kończy się zgonem.
+
+Ilość \SCut{PŻ} zależy bezpośrednio od \SCut{Żw} zgodnie ze wzorem
+$\SCut{PŻ} = 2 * \SCut{Żw} + 20$.  Biorąc pod uwagę sposób losowania
+wartości \SCut{ŻW} wartości \SCut{PŻ} mieszczą się zazwyczaj w~przedziale
+od 4 do 36.
+
+\subsubsection*{\index{testy zdrowienia}Testy zdrowienia}
+Co osiem godzin odpoczynku (snu) postać regeneruje część swoich
+\SCut{PŻ} równą $3 + \SCut{Żw}$. Jeżeli ze wzoru wyjdzie liczba mniejsza
+od 1, zregeneruje 1 obrażenie. Przeciętnie pełne leczenie trwa 6 dni.
+
+W przypadku skorzystania z~pomocy medycznej lub środków magicznych (czarów,
+mikstur, \ldots) postać wykonuje test, do którego wyniku dodaje swoją
+\SCut{Żw} oraz mod.~zdefiniowany w opisie umiejętności medyka lub czaru.
+
+Test różni się trochę od opisanych poprzednio. Polega on na rzucie \K{V} i
+odrzuceniu znaku. Równoważnie może to być $\K{20} / 2$. Dla ułatwienia
+przedstawiamy obie metody w tabeli~\ref{zdrowienie} (kolumny od lewej to:
+ostateczny wynik testu; rzuty \K{20} przed podzieleniem, z których otrzymamy
+taki wynik; wyniki rzutu \K{V} z których otrzymamy taki wynik oraz
+odpowiadające im rzuty \K{20} w ostatniej kolumnie).
+
+%\end{multicols}
+\begin{table*}%[tbh]
+  \begin{center}
+    \begin{ColorTable}{|c|c|c|c|}{4}
+
+      \DarkHeader{Wynik testu & \K{20} / 2 & \K{V} & \K{20} (\K{V})}
+      0	& 1	& 0	& 10\\
+      1	& 2, 3	& 1, -1	& 9, 11\\
+      2	& 4, 5	& 2, -2	& 8, 12\\
+      3	& 6, 7	& 3, -3	& 7, 13\\
+      4	& 8, 9	& 4, -4	& 6, 14\\
+      5	& 10, 11& 5, -5	& 5, 15\\
+      6	& 12, 13& 6, -6	& 4, 16\\
+      7	& 14, 15& 7, -7	& 3, 17\\
+      8	& 16, 17& 8, -8	& 2, 18\\
+      9	& 18, 19& 9, -9	& 1, 19\\
+      10	& 20	& 10	& 20 \\
+    \end{ColorTable}
+    \caption{Test zdrowienia}
+    \label{zdrowienie}
+%    \line(1,0){450}
+  \end{center}
+\end{table*}
+%\begin{multicols}{2}
+
+\subsection{Inicjatywa i~czas}
+Czasem w~grze (np.~w~trakcie walki) zachodzi potrzeba uszeregowania
+wydarzeń odbywających się w~bardzo krótkich odstępach czasu~--- lub
+jednocześnie. Dzielimy wtedy czas na \index{runda}\NewName{rundy}
+i~\index{tura}\NewName{tury}.
+
+W ciągu \Name{rundy} każdy z~graczy i~\SCut{BN}ów wykonuje po jednej akcji
+w trakcie swojej \Name{tury}~--- te akcje odbywają się praktycznie
+równocześnie, ale w~grze musimy im przypisać pewną kolejność, którą
+nazywamy \index{inicjatywa}\NewName{inicjatywą}. Zakłada się, że jedna
+runda w~przybliżeniu trwa 10 sekund.
+ 
+Na początku każdej rundy wszyscy gracze i~bohaterzy niezależni wykonują
+test \SCut{Zr}. Wyniki sortują malejąco i wykonują swoje akcje w kolejności
+malejącego \Name{efektu}.
+
+Jeśli kilka postaci ma taką samą inicjatywę to pierwszy będzie atakował
+zawsze \SCut{BG}, a~gracze w~takim przypadku mogą ustalić kolejność między
+sobą.  Jeśli postać ma dwa lub więcej ataków to inicjatywa dla każdego
+kolejnego ataku ma kumulatywny modyfikator -4.
+
+W starciach dwóch postaci lepiej rozwiązać tę kwestię zwykłym testem z
+\Name{przewagą} obliczoną za pomocą inicjatyw przeciwników. Sukces wyłoni
+postać rozpoczynającą rundę.
+
+\subsection{Walka}
+Podczas tworzenia postaci tworzymy trzy \index{współczynniki bitewne}
+\Name{współczynniki bitewne}. \idSCut{A} określająca wrodzoną zdolność
+ataku wręcz oraz dowolną bronią białą, \idSCut{M} odpowiednik \SCut{A} dla
+broni strzeleckich oraz trzeci \idSCut{D} opisujący zdolność postaci do
+obrony.
+
+Współczynniki \SCut{A} i~\SCut{M} jeszcze przed walką są modyfikowane przez
+biegłości w posługiwaniu się konkretnym typem broni (np.~przez biegłość
+,,długi miecz'') oraz przez modyfikatory trafienia broni. \SCut{D} może być
+modyfikowany poprzez umiejętności typu ,,uniki'' oraz mod.~obrony zbroi.
+
+Cześć obliczeń potrzebnych do przeprowadzania ataku przeprowadzamy, więc przed
+walką i~zapisujemy na karcie postaci. w~szczególności zapisujemy tam nasze \SCut{A},
+\SCut{M} i~\SCut{D} obliczone dla wszystkich naszych broni oraz zbroi.
+
+Poza wymienionymi, istnieją jeszcze modyfikatory, których nie możemy dodać
+do współczynników bitewnych przed walką, ponieważ nie wpływają na szansę
+trafienia, a tylko na efekt~--- ilość obrażeń i wyparowania
+zbroi. Podsumowanie przedstawia tabela~\ref{mod. broni}.
+
+%\end{multicols}
+\begin{table*}%[h!]
+\begin{center}
+  \begin{ColorTable}{|c|c|c|}{3}
+    \LightHeader{Nazwa & Modyfikuje & Co opisuje}
+	
+    \idNewName{mod. trafienia broni} & wsp. \SCut{A} lub \SCut{M} &
+    jak trudno trafić nią przeciwnika \\
+	
+    \idNewName{mod. obrony zbroi} & wsp. \SCut{D} &
+    trudność trafienia postaci w~tej zbroi \\
+	
+    \idNewName{mod. obrażeń broni} & efekt ataku &
+    jak duże obrażenia zadaje broń \\
+	
+    \idNewName{mod. wyparowań zbroi} & efekt ataku &
+    jak duże obrażania może pochłonąć zbroja \\
+  \end{ColorTable}
+
+  \caption{Podsumowanie modyfikatorów broni i~zbroi}
+  \label{mod. broni}
+%  \line(1,0){450}
+
+\end{center}
+\end{table*}
+%\begin{multicols}{2}
+
+\subsubsection*{Przebieg ataku}
+Atak polega na wykonaniu testu współczynnika \SCut{A} (lub odpowiednio
+\SCut{M}) przeciwko współczynnikowi \SCut{D} broniącego się. Po
+stwierdzeniu trafienia (\Name{efekt} większy od 0) dodajemy do wyniku
+mod.~obrażeń broni oraz odejmujemy mod.~wyparowań zbroi. Otrzymana liczba
+jest ilością zadanych w~ataku obrażeń.
+
+Wyróżniamy rzut krytyczny (wynik rzutu kością \K{V} równy 10) oraz rzut pechowy
+(-9).  W~przypadku pierwszym nie należy odejmować od efektu rzutu wyparowań
+zbroi, a~atak zawsze zadaje przynajmniej 1 punkt obrażeń. W~przypadku rzutu
+pechowego inwencja należy do \MG.
+
+
+\subsubsection*{Skrócony zapis modyfikatorów}
+Bardzo wygodnym sposobem zapisu modyfikatorów używanych w~walce jest zapis
+,,Atak +2/+3''.  Oznacza on \index{mod. trafienia broni}
+\Name{mod.~trafienia} równy +2 oraz \index{mod. obrażeń broni}
+\Name{mod.~obrażeń} równy +3. Analogiczny zapis stosuje się w~opisie
+czarów. Zapis ,,Zbroja -1/+3'' oznacza mod.~obrony -1 oraz mod.~wyparowań
++3.
+
+\subsubsection*{Przykład}
+Wojownik o~A=3, biegłości długi miecz +1, oraz długim mieczu +2/+1 atakuje
+złodzieja D=2, uniki +1, zbroja skórzana +1/+1. Po nałożeniu wszystkich
+możliwych modyfikatorów otrzymujemy $A=3+1+2=6$ oraz $D=2+1+1=4$.
+
+Wojownik rzuca \K{V} i~otrzymuje $11 - 10 = 1$. Dodaje do wyniku swoją
+\index{przewaga neutralna} \Name{przewagę neutralną} $1 + 6 = 7$. Złodziej
+odejmuje od tego swoją przewagę $7 - 4 = 3$~--- wojownik trafił. Złodziej
+dodaje mod.~obrażeń oraz odejmuje wyparowań: $3 + 1 - 1 = 3$ i~zapisuje
+sobie 3 obrażenia.
+
+\subsection{Mechanika zdolności nadnaturalnych}
+Postacie \Vorago prócz swoich klasycznych zdolności opisywanych przez
+cechy~i umiejętności mogą posiadać zdolności bardziej
+złożone. W~następujących punktach opiszemy prosty sposób na tworzenie
+mechaniki magii typowej dla światów fantasy; zmieniając nazwy, nakładając
+dodatkowe ograniczenia możemy w~ten sposób opisać psychiczne zdolności
+paranormalne, \emph{moc jedi} etc\ldots
+
+\subsubsection*{Mag w \Vorago}
+\index{magia}Magiem ze względu na brak pojęcia ,,profesji'' nazywany każdą
+osobę potrafiącą rzucać czary. Zgodnie z~tą ideą, każdy rębajło może parać
+się magią w~ograniczonym zakresie.
+
+\subsubsection*{Wyposażenie maga}
+
+Bohaterowie potrafiący korzystać z~mocy magicznych obowiązkowo muszą
+posiadać dwie \Name{umiejętności}: \index{rzucanie czarów}\emph{rzucanie czarów}
+i~\index{czytanie/pisanie runów}\emph{czytanie/pisanie runów}. Dla tych
+umiejętności współczynnikiem podstawowym, które modyfikują jest \idSCut{P},
+który u~maga powinien być współczynnikiem najwyższym. Od poziomu pierwszej
+z tych umiejętności zależy również ilość many~--- magicznej energii postaci.
+
+Ponadto każdy mag posiada swoją \index{księga czarów}\NewName{księgę
+czarów}, z~której co jakiś czas przypomina sobie gesty i~słowa potrzebne do
+rzucenia zaklęcia. Bez niej, już po miesiącu miałby ujemne modyfikatory do
+rzucania bardziej skomplikowanych zaklęć. Jeżeli ją straci, będzie musiał
+poświęcić parę godzin na odtworzenie tego co pamięta, a~po bardziej złożone
+zaklęcia będzie musiał przejść się do biblioteki.
+
+\subsubsection*{Sposoby rzucania czarów}
+Czary można rzucać w~sumie na cztery sposoby:
+
+\begin{enumerate}
+\item Rzucanie błyskawiczne: Mag używa do rzucenia zaklęcia umiejętności
+  \emph{rzucanie czarów}, oraz jego własnych rezerw mocy, które później
+  musi uzupełnić medytacją podczas odpoczynku.  Rzucenie zajmuje mu
+  niewiele czasu~--- około jednej tury. Tej metody z~powodzeniem używa się
+  podczas walki.
+	
+\item Rzucanie z~ksiąg: Mag może rzucać, znany przez niego czar korzystając
+  z~ksiąg oraz energii magicznej znajdującej się w~jego otoczeniu. Ale
+  wymaga to od niego większej koncentracji i~trwa dłużej~--- 6 rund, czyli
+  w~przybliżeniu jedną minutę. Żeby przeszkodzić magowi w~rzuceniu czaru
+  w~ten sposób wystarczy go choćby popchnąć lub zawołać. Jednak nie
+  uszczupla to jego własnej rezerwy mocy i~ma większą szansę powodzenia niż
+  podczas rzucania ,,błyskawicznego'' (modyfikator +1). Do rzucania czarów
+  z~ksiąg używa się umiejętności \emph{czytanie/pisanie run}.
+  
+\item Czary natychmiastowe~--- rzucanie czarów ze
+  \index{zwoje}\NewName{zwojów}: Mag do rzucenia używa przygotowanego
+  wcześniej szczegółowego opisu czaru wraz ze zmagazynowaną energią
+  potrzebną do jego rzucenia. Korzysta z~tej samej umiejętności co w~drugim
+  przypadku, lecz nie otrzymuje żadnych modyfikatorów.  Rzucenie czaru ze
+  zwoju jest równie szybkie co rzucanie ,,błyskawiczne'' i~może być używane
+  podczas walki.
+  
+\item Przedmioty magiczne, \index{różdżki}różdżki: Z~powyższych trzech
+  metod mogą korzystać tylko magowie posiadający obie umiejętności na
+  odpowiednio wysokim poziomie; w~sprzedaży można jednak znaleźć (za
+  wysokie sumy) przedmioty magiczne z~zapamiętanym jednym czarem, z~paroma
+  lub z~pojedynczym ładunkiem, które można ,,rzucić'' wykonując jakiś gest
+  lub wypowiadając ustalone słowo.  Z~takich przedmiotów można korzystać
+  podczas walki nie posiadając żadnego magicznego wykształcenia~---
+  wystarczy pełna sakiewka.
+\end{enumerate}
+
+\subsubsection*{Mechanika magii}
+
+Rzucanie czarów korzysta z~tego samego mechanizmu co ataki bronią
+konwencjonalną. \index{przewaga}\Name{Przewagę} natomiast obliczymy
+korzystając ze współczynników \SCut{P} tkającego czar oraz \SCut{R} celu
+ataku.  Modyfikujemy je w zależności od sposobu rzucania czaru, o~poziomy
+umiejętności rzucania czarów lub pisania/czytania run.
+
+\subsubsection*{Interpretacja efektu}
+
+W~przeciwieństwie do walki konwencjonalnej \Name{efekt} testu w~magii może
+mieć wielorakie znaczenie. Przy czarach ofensywnych podajemy podobnie jak
+w~przy atakach konwencjonalnych zapis ,,atak +0/+2'', gdzie pierwszy
+modyfikator oznacza trudność trafienia~--- dodaje się go jeszcze przed
+rzutem  kością do \Name{przewagi}. Drugi natomiast oznacza modyfikator
+ilości obrażeń, dodawany do \Name{efektu}.
+
+Przy pozostałych czarach znaczenie \Name{efektu} powinno być zapisane
+w~definicji, np. ,,zauroczenie na \Name{efekt} minut'', ,,wykopanie tunelu
+o~\Name{efekt} metrów długości''. 
+
+\subsubsection*{Czary o~określonym efekcie}
+
+Istnieje grupa czarów nieofensywnych, nie rzucanych przeciwko osobom tylko
+modyfikujące otaczającą maga rzeczywistość. Ich mechanika jest dokładnie
+taka sama, lecz rzuca się je przeciwko odporności neutralnej (czyli równej
+0). Poza walką czary tego typu zazwyczaj określa się jako po prostu
+,,rzucone''. Podobnie jest z~czarami rzucanymi na siebie; ich też nie
+rzucamy przeciwko naszej rezystancji, lecz przeciwko odporności neutralnej,
+a~poza walką uważamy za ,,rzucone''.
+
+\subsubsection*{Trafienia krytyczne i~pechowe}
+
+W~tym temacie nic się nie zmienia. Trafienie krytyczne~--- 10 w~rzucie~---
+jest zawsze udane, w~przeciwieństwie do rzutu równego -9. Ponadto mogą mieć
+,,specjalne znaczenie'' opisane w~definicji lub wymyślone przez \MG
+na bieżąco.
+
+\subsubsection*{Czary obszarowe}
+Przy stwierdzaniu efektu działania czaru obszarowego stosuje się również
+jeden rzut \K{V}, lecz dla każdej osoby znajdującej się na danym obszarze
+oblicza się inną \Name{przewagę}. Jeżeli osób jest bardzo dużo \MG może
+uprościć sobie zadanie określając przeciętną obronę magiczną osób na
+terenie.
+
+
+\subsubsection*{Regeneracja punktów mocy}
+Podczas odpoczynku magowie poświęcają część czasu na medytację, która
+pozwala im tak jak i~sen odpocząć, zregenerować się i~odzyskać część swoich
+punktów mocy. Podczas ośmiogodzinnego odpoczynku mag zregeneruje połowę
+swojej pełnej many.
+
+\subsubsection*{Nauka czarów}
+Czarów magowie uczą się z~ksiąg lub od nauczycieli. Nauka samodzielna nie
+jest prosta i~wymaga testu czytania/pisania run z~modyfikatorem zależnym od
+trudności czaru. Trwa również dobre parę godzin i~na dzień nie można
+próbować nauczyć się czaru więcej razy niż wynosi \SCut{Pr} postaci.
+
+Nauka z~nauczycielem nie wymaga testu i~zawsze jest udana, jeżeli \MG uzna,
+że czar nie jest dla postaci gracza zbyt skomplikowany. Jest za to trochę
+droższa i~nie zawsze możliwa.
+
+Reguła opcjonalna: Za każde nauczone się podstawowe zaklęcie gracz musi
+zapłacić 50PD. Za zaklęcia bardziej złożone, odpowiednio więcej; może uczyć
+się zaklęć na kredyt i~zmniejszyć swoją ilość PD poniżej zera. Dzięki temu
+magowie i~wojacy będą trochę lepiej zbalansowani.
+
+\subsection{Doświadczenie i~rozwój postaci}
+Postacie graczy w~trakcie gry będą się rozwijać; zdobywać nowe umiejętności
+i~rozwijać już posiadane. \Vorago wykorzystuje bardzo ograniczony system
+rozwoju.
+
+Podczas trwania sesji \MG powinien obserwować (nawet notować) z~jakich
+umiejętności najczęściej korzystają \SCut{BG}. Którzy gracze przykładają
+się do odgrywania postaci lepiej, którzy gorzej i z mniejszym
+zainteresowaniem.
+
+Zależnie od długości trwania sesji, pod jej koniec następuje podsumowanie
+rozwoju jaki przeżyły postacie, w którym gracze podnoszą o~1~wartość
+jednej, do dwóch umiejętności. To jakie umiejętności mogą zostać
+rozwinięte, zależy w dużym stopniu od decyzji \MG, który nie powinien
+pozwalać na awans nieużywanych nigdy umiejętności. Ćwiczenie czyni mistrza.
+
+\MG powinien zwrócić uwagę na rozwijanie zarówno \Name{biegłości} jak
+i~\Name{umiejętności}~--- nie pozwolić graczom na rozwijanie się tylko we
+władaniu bronią.
+
+Reguła opcjonalna: Podczas sesji \MG rozdaje pewną ilość \index{punkty
+  doświadczenia}\NewName{Punktów Doświadczenia} (\idSCut{PD}). Są one
+przydzielane za odgrywanie postaci, wykonywanie zadań, walkę i~dobre
+pomysły. Można przyjąć, że za parogodzinną sesję przydzielamy
+400-600PD. Następnie gracze po sesji za każde 500PD mogą podnieść poziom
+jednej \Name{umiejętności}, nauczyć się nowej albo zostawić sobie
+odpowiednią ich liczbę na naukę czarów w~trakcie trwania przyszłych sesji.
+
+Ilości \SCut{PD} są absolutnie umowne i~zależne od \MG.
+
+\subsection{Tworzenie umiejętności, broni, zbroi i~czarów}
+
+\Vorago było tworzone z~myślą o~wyeliminowaniu większości tabel
+i~tabelek tak popularnych w~innych systemach i~niestety absolutnie
+niezbędnych do ich używania. Dlatego też pojawiła się potrzeba na ten
+krótki punkt. \MG z~niewielkim bagażem doświadczeń powinien sobie bez
+żadnego problemu poradzić z~wymyślaniem potrzebnych graczom przedmiotów,
+czarów i~umiejętności w~trakcie rozgrywki.
+
+Czasami bardzo trudno jest tak zbalansować współczynniki broni, zbroi oraz
+zaklęć by nie były, ani za słabe, ani za silne w~stosunku do ich ceny,
+trudności rzucenia itp.
+
+\begin{itemize}
+\item[--] \index{umiejętności}Umiejętności:
+  Każda umiejętność musi mieć konkretną nazwę, która wskazuje do czego może
+  być stosowana. Może to być: ,,Kradzież kieszonkowa'', ,,Śpiew'',
+  ,,Dyplomacja'', ,,Leczenie''. Każda z~nich jest również związana z~pewną
+  cechą (tutaj odpowiednio: \SCut{Zr}, \SCut{Ch}, \SCut{Ch},
+  \SCut{Pr}). Bardzo łatwo jest domyśleć się jakiej cechy dotyczy dana
+  umiejętność.  Gdybyśmy nie mieli umiejętności wykonywalibyśmy testy
+  z~użyciem samej cechy.
+
+\item[--] \index{biegłości}Biegłości:
+  Podstawowa różnica: Biegłości to umiejętności modyfikujące współczynniki,
+  a~nie cechy. Najpopularniejszymi biegłościami są te związane z~konkretnym
+  typem używanej broni: ,,sztylet'', ,,długi miecz''.
+
+  \Name{Biegłości} powinni dotyczyć \textbf{bardzo} wąskich rodzajów
+  broni. Można dopuścić używanie \Name{biegłości} ,,broń biała'', ale nie
+  powinna być na poziomie wyższym niż 1.  \MG może ponadto dopuszczać
+  w~ramach swojego rozsądku modyfikowanie \SCut{A}~np.~o~jeden, przy walce
+  krótkim mieczem gdy postać posiada \Name{biegłość} ,,długi miecz'' na
+  poziomie co najmniej drugim.
+	
+\item[--] \index{broń biała}Broń biała: Opis broni składa się na dwie
+  liczby: mod.~trafienia, czyli mod.~współczynnika A, oraz mod.~zadawanych
+  obrażeń. Jak wynika z~systemu walki mod.~trafienia również wpływa na
+  ilość zadawanych obrażeń.  Jest to logiczne~--- jeśli bronią łatwo
+  trafić, łatwo nią zadać większe obrażenia. Gdyby znalazł się przykład,
+  którego ta zasada nie dotyczy (bicz?), można by to zasymulować poprzez
+  ujemny mod.~obrażeń.
+  
+\item[--] \index{broń strzelecka}Broń strzelecka:
+  Opis broni strzeleckiej w~stosunku do broni białej można rozszerzać
+  w~miarę potrzeb o~opis zasięgu broni.
+  
+\item[--] \index{zbroje}Zbroje: W~opisach zbroi należy uwzględnić
+  mod.~obrony, wyparowania oraz ewentualnie mod.~inicjatywy. Często stosuje
+  się rozróżnianie zbroi na ciężkie i~lekkie w~ramach tego samego
+  typu. Zbroje ciężkie mogą mieć ujemny mod.~obrony~--- noszący je gracze
+  są wolni, łatwo ich trafić. Trudno jednak przebić ich zbroję, co jest
+  ilustrowane wysokim współczynnikiem wyparowań.
+
+\item[--] \index{czary}\index{zaklęcia}Czary: Z~czarami jest największy
+  problem. Każdy czar powinien posiadać nazwę, która będzie jak najlepiej
+  opisywała jego działanie.  Mag rzucając zaklęcie rzuca kością \K{20}
+  i~ostatecznie uzyskuje liczbę określającą Efekt z~jakim udało się mu to
+  zaklęcie rzucić.  Czary powinny brać ów efekt pod uwagę w~swoim
+  opisie. Przykładem może być czar ofensywny ,,Ognisty atak''. Skutkiem
+  jego rzucenia jest atak +1/+3. Do przewagi podczas testu dodajemy 1 a~do
+  ostatecznego efektu określającego ilość obrażeń dodajemy 3. Wiele zaklęć
+  musi mieć również opisany czas działania, zasięg lub obszar
+  działania. Mogą być one związane z~efektem lub zależne w~bezpośredni
+  sposób od \SCut{P} maga (np. 1 m/P).  Najtrudniejsze jest ustalenie
+  kosztu czaru. Powinien być adekwatny do jego przydatności i~mocy.
+
+\end{itemize}

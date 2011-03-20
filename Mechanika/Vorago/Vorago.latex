@@ -1,0 +1,63 @@
+\ifforprint
+  \documentclass[a4paper,onecolumn,10pt]{scrartcl}
+\else
+  \documentclass[a4paper,onecolumn,9pt]{scrartcl}
+\fi
+
+\usepackage[utf8]{inputenc}
+\usepackage[OT4]{polski}
+
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage[table,svgnames]{xcolor}
+\usepackage{fullpage}
+\usepackage{xspace}
+\usepackage{multicol}
+\usepackage{float}
+
+\makeindex
+
+\input{Style.latex}
+\begin{document}
+\onecolumn
+%%%%%% %%%%%% %%%%%% %%%%%% FRONT PAGE %%%%%% %%%%%% %%%%%% %%%%%% 
+\thispagestyle{empty}
+\vspace*{\stretch{0.7}}
+\begin{center}
+
+\Huge{\textsc{Vorago RPG}}\\
+
+\large v1.0beta5\\
+
+\begin{figure}[h]
+\center \includegraphics[scale=0.7]{Images/FrontImage}
+\end{figure}
+
+\large
+(C) 2003--2008 by\\
+Tomasz ,,bla'' Fortuna\\
+\normalsize {\emph{(bla@thera.be TomaszFortuna@gmail.com)}}\\
+\large
+Filip Koza\\
+Małgorzata Urszula Fortuna\\
+\end{center}
+\vspace*{\stretch{1}}
+\clearpage
+%%%%%% %%%%%% %%%%%% %%%%%% FRONT PAGE END %%%%%% %%%%%% %%%%%% %%%%%% 
+
+%\setcounter{tocdepth}{2}
+\tableofcontents
+% \listoftables
+\vspace{0.3in}
+
+\begin{multicols}{2}
+%\twocolumn
+\input{Chapter1.latex}
+\input{Chapter2.latex}
+\input{Chapter3.latex}
+\end{multicols}
+
+\printindex
+\end{document}
+

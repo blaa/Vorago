@@ -1,0 +1,60 @@
+\section{Wstęp}
+Niniejszy dokument zawiera opis mechaniki RPG \Vorago.
+
+\subsection*{Założenia podjęte przy tworzeniu systemu}
+
+\begin{enumerate}
+\item Przenośność: Minimalnymi wymaganiami do gry są kartka, ołówek, gumka,
+  kość K20, jedna osoba znająca mechanikę~--- dobry \SCut{MG}. Każdy może
+  przygotować własny spisany zestaw broni, czarów w~razie potrzeby~---
+  nawet tuż przed sesją. Jednak do prowadzenia sesji nie powinien być
+  potrzebny jakikolwiek ,,papierkowy'' materiał (może prócz scenariusza).
+
+\item Prostota: Do przeprowadzenia ataku potrzebny jest jeden rzut.
+  Z~naszej praktyki wynika, że to działa sprawnie, choć z początku w~tym
+  jednym rzucie trochę się gubiliśmy.
+
+\item Modularność: Zupełne oddzielenie mechaniki od świata. Stworzenie
+  mechaniki kompletnej, prostej do zrozumienia, z~przykładami, opisem
+  tworzenia postaci, a~do tego na tyle uniwersalnej żeby z minimalną liczbą
+  zmian (np.~usunięciem współczynników \SCut{P} i \SCut{R}, dodaniem
+  innych, przemianowaniem cech) mogła pasować do dowolnego
+  świata. Przykłady są osadzone w świecie fantasy.
+\end{enumerate}
+
+\subsection*{Prośba do czytelnika}
+Jeśli znalazłeś tego RPGa w~sieci i~właśnie w~zaciszu domowego ogniska
+przeglądasz te strony, bardzo prosilibyśmy o~wszelaki kontakt. Maila
+z~komentarzem, pytaniem, lub choćby stwierdzeniem, że czytałeś. Bardzo nas
+takie maile motywują. Nawet marudzące. (Maile są na okładce).
+
+\subsection*{Styl dokumentu}
+W tym dokumencie, w~celu zwiększania czytelności sililiśmy się na
+podkreślanie nazw własnych i~nowych pojęć. Inaczej \NewName{wprowadzanych
+  po raz pierwszy} i~trochę inaczej \Name{wcześniej wprowadzonych}.
+\Example{Przykłady pisane są pochyloną i~trochę jaśniejszą czcionką}
+
+Używamy również paru bardzo popularnych skrótów i zwrotów, ale dla porządku
+przytoczmy ich rozwinięcia:
+\begin{itemize}
+\item \index{BG}\SCut{BG}~--- Bohater Gracza
+\item \index{BN}\SCut{BN}~--- Bohater Niezależny
+\item \index{modyfikator}\SCut{mod.}~--- Modyfikator; ujemna lub dodatnia
+  liczba dodawana do wyniku rzutu lub jakiegoś współczynnika.
+\end{itemize}
+
+\subsection*{Licencja}
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.2 as
+published by the Free Software Foundation; with no Invariant Sections,
+no Front-Cover Texts, and no Back-Cover Texts. \\
+\\
+Udziela się zezwolenia na kopiowanie, rozpowszechniania i~modyfikację
+tego dokumentu zgodnie z zasadami Licencji GNU Wolnej Dokumentacji
+w~wersji 1.2 opublikowanej przez Free Software Foundation; bez Części
+Stałych, bez Treści Przedniej Okładki oraz bez Treści Tylnej
+Okładki.\\
+\\
+Chcielibyśmy być poinformowani o~wykorzystaniu komercyjnym.
+
+
